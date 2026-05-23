@@ -1,0 +1,130 @@
+---
+title: "Research"
+page-layout: article
+format:
+  html:
+    grid:
+      body-width: 1300px    # ★ 글이 들어가는 본문 열의 넓이를 강제로 늘립니다
+      margin-width: 250px   # 우측 목차(On this page)가 들어가는 열의 넓이
+---
+
+## Job Market Paper
+
+::: {.paper-item}
+### Financial Sanctions and the Dollar Dominance
+
+<div class="paper-links">
+  <a href="#" class="btn-paper"><i class="bi bi-file-pdf-fill"></i> Latest Draft (PDF)</a>
+  <a href="#" class="btn-paper"><i class="bi bi-file-earmark-bar-graph"></i> Presentation Slides</a>
+</div>
+
+::: {.paper-abstract}
+**Abstract:** Does the weaponization of dollar finance undermine dollar dominance in global trade? Using a new panel of FX-neutral import invoicing shares from 2012 to 2023, I show that U.S. financial sanctions against Chinese entities induce a selective shift from dollar to RMB invoicing. The response is strongest among countries whose imports from China are concentrated in working-capital-intensive sectors, while countries with low working-capital exposure exhibit almost no RMB switching. This heterogeneity suggests that sanctions do not trigger broad de-dollarization uniformly; instead, they reshape invoicing choices along financially vulnerable supply-chain links. I develop a model in which dominant-currency invoicing offers normal-time liquidity and hedging benefits but exposes firms to sanctions-sensitive working-capital constraints. Exporters borrow to finance intermediate inputs, and banks provide cash-flow-based credit lines whose usable amount depends on the invoicing currency and the realized geopolitical credit state. As U.S. sanctions risk rises, dollar-linked credit lines become less reliable because of the threat of payment disruptions, asset freezes, compliance delays, and reduced dollar settlement capacity. Firms exposed to working-capital-intensive production therefore switch to RMB invoicing to stabilize borrowing capacity. In the model, working-capital exposure lowers the threshold at which a trade relationship abandons dollar invoicing. A quantitative calibration disciplines this threshold mechanism using the reduced-form RMB response. Removing working-capital heterogeneity eliminates the muted response among low-working-capital countries, showing that the working-capital channel is quantitatively central. The findings imply that sanctions can weaken dollar dominance not through universal de-dollarization, but through selective currency switching where dollar liquidity becomes a source of geopolitical funding risk.
+:::
+:::
+
+
+## Publications
+
+::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
+<div style="flex: 1; min-width: 300px;">
+  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Purchasing Power Parity vs. Uncovered Interest Rate Parity for NAFTA Countries: The value of Incorporating Time-Varying Parameter Model"</span>    
+  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Economic Modelling*, 2020</span>
+</div>
+<div style="display: flex; gap: 10px;">
+  <a href="https://doi.org/10.1016/j.econmod.2019.11.034" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
+</div>
+:::
+
+::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
+<div style="flex: 1; min-width: 300px;">
+  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Empirical Test of Purchasing Power Parity Using a Time-Varying Cointegration Model for China and the UK"</span>    
+  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Physica A: Statistical Mechanics and its Applications*, 2019</span>
+</div>
+<div style="display: flex; gap: 10px;">
+  <a href="https://doi.org/10.1016/j.physa.2019.01.072" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
+</div>
+:::
+
+::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
+<div style="flex: 1; min-width: 300px;">
+  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Impacts of China's Trade on Sectoral Employment Rates"</span>    
+  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of Industrial Economics and Business*, 2019</span>
+</div>
+<div style="display: flex; gap: 10px;">
+  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002480753" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
+</div>
+:::
+
+::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
+<div style="flex: 1; min-width: 300px;">
+  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Analysis of the Estimation of Demand Elasticity for Non-Alcoholic Beverage"</span> <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>    
+  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of The Korean Data Analysis Society*, 2019</span>
+</div>
+<div style="display: flex; gap: 10px;">
+  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002440184" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
+</div>
+:::
+
+::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
+<div style="flex: 1; min-width: 300px;">
+  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Impact of Price Disclosure on Gas Market Pricing: Applying Time-varying Cointegration Models"</span>  <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>    
+  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of Industrial Economics and Business*, 2019</span>
+</div>
+<div style="display: flex; gap: 10px;">
+  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002515816" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
+</div>
+:::
+
+::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
+<div style="flex: 1; min-width: 300px;">
+  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"China's International Trade and Employment by Sector: Private versus Public"</span> <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>    
+  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of The Korean Data Analysis Society*, 2018</span>
+</div>
+<div style="display: flex; gap: 10px;">
+  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002363576" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
+</div>
+:::
+
+
+## Working Papers
+
+::: {.paper-item}
+### Passing the Tax Through Promotions: Endogenous Marketing Margins and Heterogeneous Frictions
+*with Kristin Kiesel and Yijoong Won*
+
+<div class="paper-links">
+  <a href="#" class="btn-paper"><i class="bi bi-file-pdf-fill"></i> Draft</a>
+  <a href="#" class="btn-paper"><i class="bi bi-journal-text"></i> Online Appendix</a>
+</div>
+
+::: {.paper-abstract}
+**Abstract:** Many empirical evaluations of corrective excise taxes summarize incidence through average price pass-through. In retail markets, however, consumers face a broader pricing environment that includes regular prices, temporary discounts, and the timing of promotions. This paper studies how retailers allocate a permanent tax shock across these pricing margins. We develop a simple framework in which retailers choose an effective consumer price through a regular price and a promotional margin. Market environments differ in consumer price sensitivity, search frictions, and baseline promotional capacity, generating two empirically testable responses: nominal price adjustment when the promotional margin is constrained, and promotion adjustment when retailers can raise effective prices by reducing discounts. We study the 2018 San Francisco sugar-sweetened beverage tax using NielsenIQ retail scanner data at the store--UPC--week level. Apply a Local Projections Difference-in-Differences, we trace both average and dynamic responses. The average response combines an increase in regular prices with a decline in promotion frequency. Heterogeneity across channels and categories is consistent with the model: grocery stores and traditional soft drinks exhibit gradual regular-price pass-through, while discount stores show more muted regular-price changes and a more persistent contraction in promotion frequency. These findings indicate that tax incidence in retail settings can operate through less visible marketing margins, not only through posted regular prices. They also imply that the welfare and distributional effects of corrective taxes depend on the retail technologies through which taxes are transmitted to consumers.
+:::
+:::
+
+## Work in Progress
+
+* **Tariff News and Inflation Expectations** <span style="font-size: 1.2rem; color: var(--text-muted);">with Hyunseo Park and Yungu Cho</span> 
+
+* **The Relationship between Crude Oil and the Stock Market in China** <span style="font-size: 1.2rem; color: var(--text-muted);">with Sun Ho Lee and Jongchan Lee</span>
+
+## Policy Papers
+
+::: {.paper-item}
+### Analysis of the Effects of Infrastructure Investment on Economic Growth <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>
+*NATIONAL ASSEMBLY BUDGET OFFICE*, 2020
+
+<div class="paper-links">
+  <a href="https://www.nabo.go.kr/ko/report/policyView.do?key=2507040010&idx=7402" class="btn-paper"><i class="bi bi-link-45deg"></i> Link to Publication</a>
+</div>
+:::
+
+::: {.paper-item}
+### The Economic Effects of Gyeongbu-Expressway <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>
+*KOREA EXPRESSWAY CORPORATION RESEARCH INSTITUTE*, 2020
+
+<div class="paper-links">
+  <a href="https://www.alio.go.kr/item/itemBoardB1260.do?disclosureNo=2020073102069780&apbaId=C0183&nowcode=B1260&reportFormNo=B1260&table_name=COMM_BOARD&idx_name=BOARD_NO&idx=2744639&reportGbn=N&bid_type=0" class="btn-paper"><i class="bi bi-link-45deg"></i> Link to Publication</a>
+</div>
+:::

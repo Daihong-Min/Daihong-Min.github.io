@@ -1,0 +1,210 @@
+---
+title: "Teaching Experience"
+page-layout: article
+toc: true
+toc-location: right
+format:
+  html:
+    grid:
+      body-width: 1300px    # ★ 글이 들어가는 본문 열의 넓이를 강제로 늘립니다
+      margin-width: 250px   # 우측 목차(On this page)가 들어가는 열의 넓이
+---
+
+## University of California, Davis
+
+### Teaching Evaluation Summary
+<div style="text-align: right; margin-bottom: -15px; font-size: 0.9rem; color: #7f8c8d; font-style: italic;">
+  (Updated on April 6, 2026)
+</div>
+
+::: {.eval-stats-container}
+::: {.eval-stat-box}
+**4.2 / 5.0**
+<span class="stat-label">Overall teaching effectiveness of the teaching assistant</span>
+:::
+::: {.eval-stat-box}
+**4.4 / 5.0**
+<span class="stat-label">Overall, the TA did a good job in this course</span>
+:::
+:::
+
+<div style="text-align: center; margin-bottom: 40px;">
+  <a href="teaching_evaluations.pdf" class="btn-eval-download" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-download"></i> Download Full Teaching Evaluation Summary (PDF)
+  </a>
+</div>
+
+<br>
+
+### Courses Taught
+::: {.teaching-grid}
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 1A: Principles of Microeconomics** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">FQ 2021</span>
+<span class="term-badge">WQ 2023</span>
+<span class="term-badge">SQ 2023</span>
+<span class="term-badge">FQ 2024</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 1B: Principles of Macroeconomics** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">FQ 2022</span>
+<span class="term-badge">WQ 2022</span>
+<span class="term-badge">FQ 2023</span>
+<span class="term-badge">SQ 2024</span>
+<span class="term-badge">SS 2025</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 100: Intermediate Micro Theory** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">SQ 2022</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 101: Intermediate Macro Theory** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">WQ 2024</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 131: Public Finance** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">SS 2024</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 134: Financial Economics** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">SQ 2025</span>
+<span class="term-badge">FQ 2025</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECN 135: Money, Banks, & Financial Institutions** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">WQ 2025</span>
+<span class="term-badge">SS 2025</span>
+<span class="term-badge">WQ 2026</span>
+<span class="term-badge">SQ 2026</span>
+:::
+:::
+
+:::
+
+<br>
+
+
+## Korea University
+
+### Courses Taught
+::: {.teaching-grid}
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP180: Mathematics for Economics & Business** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Spring 2018</span>
+<span class="term-badge">Spring 2021</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP210: Statistics for Economists** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Spring 2017</span>
+<span class="term-badge">Fall 2017</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP303: Theory and Practice of Public Finance** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Spring 2021</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP305: Econometrics** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Fall 2018</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP308: Taxation and National Economy** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Fall 2017</span>
+<span class="term-badge">Fall 2018</span>
+<span class="term-badge">Fall 2019</span>
+<span class="term-badge">Fall 2020</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP406: Introduction to Financial Times Series Data Analysis** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Spring 2018</span>
+<span class="term-badge">Spring 2019</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
+**ECOP409: Introduction to Economic Fluctuations** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">Fall 2017</span>
+<span class="term-badge">Fall 2018</span>
+:::
+:::
+
+:::

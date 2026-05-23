@@ -1,0 +1,103 @@
+
+---
+title: "Curriculum Vitae"
+page-layout: article
+toc: false
+toc-location: right
+format:
+  html:
+    grid:
+      body-width: 1300px
+      margin-width: 250px
+---
+
+```{=html}
+<div class="cv-viewer-container" style="margin-top: 30px; margin-bottom: 50px;">
+  <div style="text-align: right; margin-bottom: 12px;">
+    <a href="cv.pdf" class="btn-cv-download" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-pdf-fill"></i> Open / Download Full CV in New Tab
+    </a>
+  </div>
+  <iframe src="cv.pdf" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"></iframe>
+</div>
+```
+
+<hr style="margin: 50px 0; border-top: 1px solid #eee;">
+
+## Education
+
+::: {.education-grid}
+
+::: {.edu-row}
+::: {.edu-year}
+**2021 – Present**
+:::
+::: {.edu-details}
+**University of California, Davis** <span class="edu-degree">Ph.D. in Economics</span> (Expected: June 2027)
+:::
+:::
+
+::: {.edu-row}
+::: {.edu-year}
+**2019 – 2021**
+:::
+::: {.edu-details}
+**Korea University** <span class="edu-degree">Ph.D. Student in Economics</span>
+:::
+:::
+
+::: {.edu-row}
+::: {.edu-year}
+**2019**
+:::
+::: {.edu-details}
+**Korea University** <span class="edu-degree">M.A. in Economics</span>
+:::
+:::
+
+::: {.edu-row}
+::: {.edu-year}
+**2017**
+:::
+::: {.edu-details}
+**Korea University** <span class="edu-degree">B.A. in Economics</span>
+:::
+:::
+
+:::
+
+<br>
+
+## References
+
+::: {.reference-grid}
+
+::: {.ref-card}
+#### Prof. Paul Bergin <span class="ref-chair">(Chair)</span>
+Department of Economics  
+University of California, Davis  
+<i class="bi bi-envelope"></i> [prbergin@ucdavis.edu](mailto:prbergin@ucdavis.edu)
+:::
+
+::: {.ref-card}
+#### Prof. Katheryn Russ
+Department of Economics  
+University of California, Davis  
+<i class="bi bi-envelope"></i> [knruss@ucdavis.edu](mailto:knruss@ucdavis.edu)
+:::
+
+::: {.ref-card}
+#### Prof. Ina Simonovska
+Department of Economics  
+University of California, Davis  
+<i class="bi bi-envelope"></i> [inasimonovska@ucdavis.edu](mailto:inasimonovska@ucdavis.edu)
+:::
+
+::: {.ref-card}
+#### Prof. Emile A. Marin
+Department of Economics  
+University of California, Davis  
+<i class="bi bi-envelope"></i> [emarin@ucdavis.edu](mailto:emarin@ucdavis.edu)
+:::
+
+:::
