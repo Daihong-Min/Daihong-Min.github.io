@@ -1,0 +1,34 @@
+name: Build CV
+
+on:
+  push:
+    paths:
+      - 'cv.tex'
+      - '.github/workflows/build-cv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Compile cv.tex
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+
+      - name: Put the PDF where the site can find it
+        run: cp cv.pdf docs/cv.pdf
+
+      - name: Commit the rebuilt PDF
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cv.pdf docs/cv.pdf
+          git diff --staged --quiet || git commit -m "Rebuild cv.pdf from cv.tex"
+          git push

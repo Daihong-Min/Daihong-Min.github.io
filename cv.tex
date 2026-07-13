@@ -1,0 +1,151 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{mathpazo}
+\usepackage{csquotes}
+\usepackage[normalem]{ulem}
+\usepackage{fontawesome5}
+
+% Custom section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{\thesection.}{1em}{}
+\titleformat{\subsection}[runin]{\bfseries}{}{0pt}{}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% Custom commands
+\newcommand{\sechead}[1]{%
+  \vspace{6pt}%
+  {\normalsize\bfseries\uppercase{#1}}\\[-8pt]%
+  \noindent\rule{\textwidth}{0.4pt}%
+  \vspace{2pt}%
+}
+\newcommand{\subentry}[2]{%
+  {\small\textbf{#1}} \hfill {\small\textit{#2}}\\
+}
+\newcommand{\subsubentry}[2]{%
+  {\small#1} \hfill {\small\textit{#2}}\\
+}
+\newcommand{\pubitem}[2]{\item \textit{#1}. #2}
+\newcommand{\plainitem}[1]{\item #1}
+
+\begin{document}
+
+% Name and Contact Info
+\begin{center}
+    {\LARGE \textbf{Daihong Min} \\
+    \vspace{0.1em}
+    \small\noindent \textit{Updated \today}}\\[5pt]
+    \href{https://www.daihongmin.com/}{\faGlobe\ daihongmin.com} \quad
+    \href{mailto:dhmin@ucdavis.edu}{\faEnvelope\ dhmin@ucdavis.edu} \quad
+    \faPhone\ (530) 761-6182 \quad
+    \href{https://scholar.google.com/citations?user=9xPqwXAAAAAJ&hl=en}{\faGoogle\ Google Scholar}\\[5pt]
+    Department of Economics, University of California Davis\\
+    One Shields Avenue, Davis, CA 95616
+\end{center}
+
+% Sections
+\sechead{{\large E}DUCATION}
+\subentry{University of California, Davis}{}
+\subsubentry{Ph.D. in Economics}{2021--present}
+\subsubentry{\textit{Fields: International Macroeconomics, Macroeconomics, International Trade}}{}
+
+\subentry{Korea University}{}
+\subsubentry{Ph.D. Program in Economics \textit{(prior to UC Davis)}}{2019--2021}
+\subsubentry{M.A. in Economics}{2017--2019}
+\subsubentry{\textit{Thesis}: ``Effect of Monetary Integration on Purchasing Power Parity in Euro Area"}{}
+
+\subentry{Korea University}{}
+\subsubentry{B.A. in Economics, \textit{Summa Cum Laude}}{2012--2017}
+
+\sechead{Academic Publications}
+\begin{itemize}[leftmargin=*]
+    \pubitem{“Purchasing Power Parity vs. Uncovered Interest Rate Parity for NAFTA Countries: The value of Incorporating Time-Varying Parameter Model.”}{\uline{Economic Modelling}, 90 (2020), (with Jong Cheol Yoon and Sang Young Jei)}
+    \pubitem{“Empirical Test of Purchasing Power Parity Using a Time-Varying Cointegration Model for China and the UK.”}{\uline{Physica A: Statistical Mechanics and its Applications}, 521 (2019), (with Jong Cheol Yoon and Sang Young Jei)}
+    \pubitem{“Impact of Price Disclosure on Gas Market Pricing: Applying Time-varying Cointegration Models.”}{\uline{Journal of Industrial Economics and Business}, 32(5) (2019), (with Jong Cheol Yoon and Sang Young Jei)}
+    \pubitem{“Impacts of China's Trade on Sectoral Employment Rates.”}{\uline{Journal of Industrial Economics and Business},  32(3) (2019), (with Jong Chan Lee and Sang Young Jei)}
+    \pubitem{“Analysis of the Estimation of Demand Elasticity for Non-Alcoholic Beverage.”}{\uline{Journal of The Korean Data Analysis Society},  21(1) (2019), (with Won Nyon Kim and Sang Young Jei)}
+    \pubitem{“China's International Trade and Employment by Sector: Private versus Public.”}{\uline{Journal of The Korean Data Analysis Society},  20(3) (2018), (with Jong Chan Lee and Sang Young Jei)}
+\end{itemize}
+
+\sechead{Working Paper}
+\begin{itemize}[leftmargin=*]
+    \plainitem{``Financial Sanctions and the Dollar Dominance"}
+    \plainitem{``Passing the Tax Through Promotions: Endogenous Marketing Margins and Heterogeneous Frictions" (with \href{https://kiesel.ucdavis.edu/}{Kristin Kiesel} and Yijoong Won)}
+\end{itemize}
+
+\sechead{Work in Progress}
+\begin{itemize}[leftmargin=*]
+    \plainitem{``Tariff News and Inflation Expectations" (with \href{https://sites.google.com/ucdavis.edu/hyunseopark/}{Hyunseo Park} and Yungu Cho)}
+    \plainitem{``The Relationship between Crude Oil and the Stock Market in China" (with Sun Ho Lee and Jong Chan Lee)}
+    \plainitem{``The Impact of Economic and Monetary Union on Adjustment Speed" (with Sang Young Jei)}
+\end{itemize}
+
+\sechead{Grants, Scholarships, and Awards}
+\begin{itemize}[leftmargin=*]
+    \plainitem{Department Travel Awards, UC Davis}
+    \plainitem{Research Assistant Scholarships, Korea University}
+    \plainitem{Teaching Fellow Scholarships, Korea University}
+    \plainitem{Best Thesis Awards, Korea University}
+    \plainitem{KIMKEEWHA’s Research Scholarships, Korea University}
+\end{itemize}
+
+%\sechead{Conference \& Seminar Presentations}
+%\begin{itemize}[leftmargin=*]
+%    \plainitem{2025: UC Davis}
+%\end{itemize}
+
+\sechead{Policy Papers}
+\begin{itemize}[leftmargin=*]
+    \pubitem{“Analysis of the Effects of Infrastructure Investment on Economic Growth”}{\uline{National Assembly Budget Office}, (2020), (with Yonghun Jung and Lee, Seong-Hoon)} \href{https://www.nabo.go.kr/Sub/01Report/05_Board.jsp?funcSUB=view&bid=19&arg_cid1=0&arg_cid2=0&arg_class_id=0&currentPage=0&pageSize=10&currentPageSUB=0&pageSizeSUB=10&key_typeSUB=subject&keySUB=%EC%9D%B8%ED%94%84%EB%9D%BC&search_start_dateSUB=&search_end_dateSUB=&department=0&department_sub=0&etc_cate1=&etc_cate2=&sortBy=reg_date&ascOrDesc=desc&search_key1=&etc_1=0&etc_2=0&tag_key=&arg_id=7402&item_id=7402&etc_1=0&etc_2=0&name2=0}{(Korean)}
+    \pubitem{“The Economic Effects of Gyeongbu-Expressway”}{\uline{Korea Expressway Corporation Research Institute}, (2020), (with Yonghun Jung and Lee, Seong-Hoon)}(Korean)
+\end{itemize}
+
+\sechead{Teaching Experience}
+\subentry{Teaching Assistant, UC Davis}{2021--present}
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+    \plainitem{Financial Economics (ECN 134), Money, Banks, \& Financial Institutions (ECN 135), Public Finance (ECN 131), Intermediate Macro Theory (ECN 101), Intermediate Micro Theory (ECN 100), The Principle of Microeconomics (ECN 1A), The Principle of Macroeconomics (ECN 1B)}
+\end{itemize}
+\vspace{1em}
+\subentry{Teaching Assistant, Korea University}{2017--2021}
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+    \plainitem{Introduction to Economic Fluctuations (ECOP409), Introduction to Financial Times Series Data Analysis (ECOP406),Taxation and National Economy (ECOP308), Econometrics (ECOP305), Theory and Practice of Public Finance (ECOP303), Statistics for Economists (ECOP210), Mathematics for Economics \& Business (ECOP180)}
+\end{itemize}
+
+\sechead{References}
+\begin{tabular}{@{}p{0.5\textwidth} p{0.5\textwidth}}
+    \textbf{\href{https://faculty.econ.ucdavis.edu/faculty/bergin/}{Paul Bergin}} (Chair) &
+    \textbf{\href{https://katherynruss.weebly.com/}{Katheryn Russ}} \\
+    Professor & Professor \\
+    Department of Economics & Department of Economics \\
+    University of California, Davis & University of California, Davis \\
+    \href{mailto:prbergin@ucdavis.edu}{\faEnvelope\ prbergin@ucdavis.edu} &
+    \href{mailto:knruss@ucdavis.edu}{\faEnvelope\ knruss@ucdavis.edu} \\
+    \\[5pt]
+    \textbf{\href{https://www.inasimonovska.com/}{Ina Simonovska}} &
+    \textbf{\href{https://sites.google.com/view/emilemarin/home?authuser=0}{Emile A. Marin}}  \\
+    Associate Professor & Assistant Professor \\
+    Department of Economics & Department of Economics \\
+    University of California, Davis & University of California, Davis \\
+    \href{mailto:inasimonovska@ucdavis.edu}{\faEnvelope\ inasimonovska@ucdavis.edu} &
+    \href{mailto:emarin@ucdavis.edu}{\faEnvelope\ emarin@ucdavis.edu}
+\end{tabular}
+
+\sechead{Personal Information}
+\textbf{Citizenship:} Republic of Korea \\
+\textbf{Language:} Korean (native), English (fluent) \\
+\textbf{Programming skills:} Stata, Python, R, Matlab, \LaTeX \\
+
+\vfill
+\end{document}
