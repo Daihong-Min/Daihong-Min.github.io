@@ -88,6 +88,16 @@ format:
 
 ::: {.teach-row}
 ::: {.teach-details}
+**ECN 117: Economics of International Immigration** <br>
+<span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
+:::
+::: {.teach-terms-wrapper}
+<span class="term-badge">SS 2026</span>
+:::
+:::
+
+::: {.teach-row}
+::: {.teach-details}
 **ECN 131: Public Finance** <br>
 <span class="teach-role"><i class="bi bi-person-video3"></i> Teaching Assistant</span>
 :::
