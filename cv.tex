@@ -35,6 +35,10 @@
 \newcommand{\subsubentry}[2]{%
   {\small#1} \hfill {\small\textit{#2}}\\
 }
+% Same as \subsubentry, but adds a controlled gap before the next institution.
+\newcommand{\subsubentrylast}[2]{%
+  {\small#1} \hfill {\small\textit{#2}}\\[5pt]
+}
 \newcommand{\pubitem}[2]{\item \textit{#1}. #2}
 \newcommand{\plainitem}[1]{\item #1}
 
@@ -57,15 +61,12 @@
 \sechead{{\large E}DUCATION}
 \subentry{University of California, Davis}{}
 \subsubentry{Ph.D. in Economics}{2021--present}
-\subsubentry{\textit{Fields: International Macroeconomics, Macroeconomics, International Trade}}{}
-
+\subsubentrylast{\textit{Fields: International Macroeconomics, Macroeconomics, International Trade}}{}
 \subentry{Korea University}{}
 \subsubentry{Ph.D. Program in Economics \textit{(prior to UC Davis)}}{2019--2021}
 \subsubentry{M.A. in Economics}{2017--2019}
 \subsubentry{\textit{Thesis}: ``Effect of Monetary Integration on Purchasing Power Parity in Euro Area"}{}
-
-\subentry{Korea University}{}
-\subsubentry{B.A. in Economics, \textit{Summa Cum Laude}}{2012--2017}
+\subsubentrylast{B.A. in Economics, \textit{Summa Cum Laude}}{2012--2017}
 
 \sechead{Academic Publications}
 \begin{itemize}[leftmargin=*]
