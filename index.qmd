@@ -56,6 +56,8 @@ My dissertation examines how U.S. financial sanctions affect dollar dominance in
 
 <div class="jmp-title">Financial Sanctions and the Dollar Dominance</div>
 
+<div class="jmp-status">Manuscript forthcoming. Draft available upon request.</div>
+
 <div class="jmp-takeaway">U.S. financial sanctions do not cause broad de-dollarization. They push firms off the dollar precisely where trade credit is fragile.</div>
 
 <!-- Draft and slides links go back in here in October. Restore with:

@@ -102,6 +102,13 @@ h2 {
   line-height: 1.35;
   margin-bottom: 10px;
 }
+.jmp-status {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-muted) !important;
+  margin: -4px 0 16px 0;
+}
 .jmp-takeaway {
   font-family: var(--font-prose);
   font-size: 1.2rem;
@@ -216,20 +223,21 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
 .profile-text-box h1 { font-size: 2.8rem; margin-bottom: 5px; }
 .profile-text-box h3 { font-size: 1.45rem; color: var(--text-muted) !important; margin-bottom: 12px; }
 
-/* Field 태그 */
+/* Field 태그 — ★ must stay on ONE line. nowrap + smaller type is what does it. */
 .profile-keywords {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px; 
-  margin-bottom: 15px; 
+  flex-wrap: nowrap;
+  gap: 8px;
+  margin-bottom: 15px;
 }
 .profile-keywords span {
-  background-color: var(--badge-bg) !important; 
-  color: var(--badge-text) !important; 
-  padding: 6px 14px;
+  background-color: var(--badge-bg) !important;
+  color: var(--badge-text) !important;
+  padding: 5px 12px;
   border-radius: 20px;
-  font-size: 1.05rem;
+  font-size: 0.85rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 /* 소셜 링크 */
@@ -352,18 +360,28 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   transition: transform 0.2s ease;
 }
 .teach-row:hover { transform: translateX(5px); }
-.teach-details { font-size: 1.3rem; color: var(--title-color) !important; line-height: 1.4; }
+.teach-details { flex: 1 1 auto; font-size: 1.2rem; color: var(--title-color) !important; line-height: 1.4; }
 .teach-role { font-size: 1.05rem; color: var(--text-muted) !important; font-style: italic; display: inline-block; margin-top: 4px; }
 .teach-role i { margin-right: 5px; }
 
-.teach-terms-wrapper { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; max-width: 40%; }
+/* ★ Term badges hug the right edge. flex-end aligns wrapped rows right too. */
+.teach-terms-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0 0 auto;
+  max-width: 58%;
+  margin-left: auto;
+}
 .term-badge {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 4px 10px;
   background-color: var(--badge-bg) !important;
   color: var(--badge-text) !important;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 600;
   border-radius: 20px;
   border: 1px solid var(--border-color) !important;
   white-space: nowrap;
