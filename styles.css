@@ -45,8 +45,11 @@ body.quarto-dark {
    2. 전체 타이포그래피 및 기본 글씨 적용
 ========================================= */
 body {
-  font-size: 1.5rem !important;   
-  line-height: 1.9;              
+  /* ★ MASTER TEXT SIZE. 1rem = 16px (browser default).
+     Raise it to make all body text bigger, lower it to make it smaller.
+     1.5rem was ~24px, which looked enormous on any screen but this one. */
+  font-size: 1.15rem !important;
+  line-height: 1.8;
   color: var(--text-main) !important;
   background-color: var(--body-bg) !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -325,6 +328,9 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
    9. 모바일 반응형 디바이스 대응
 ========================================= */
 @media (max-width: 768px) {
+  /* ★ TEXT SIZE ON PHONES. Slightly smaller than desktop. */
+  body { font-size: 1.05rem !important; }
+  h2 { font-size: 1.6rem !important; margin-top: 2.5rem; }
   .profile-container { flex-direction: column; text-align: center; gap: 20px; }
   .profile-image-box { flex: 0 0 180px; } 
   .edu-row { flex-direction: column; gap: 5px; }
