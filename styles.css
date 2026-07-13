@@ -328,11 +328,45 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
    9. 모바일 반응형 디바이스 대응
 ========================================= */
 @media (max-width: 768px) {
-  /* ★ TEXT SIZE ON PHONES. Slightly smaller than desktop. */
-  body { font-size: 1.05rem !important; }
-  h2 { font-size: 1.6rem !important; margin-top: 2.5rem; }
+  /* ★ PHONE TEXT SIZES.
+     body{} alone does NOT shrink the site, because the rules below hard-code
+     their own sizes. Every oversized element needs its own line here. */
+  body { font-size: 1rem !important; line-height: 1.65; }
+
+  /* Headers */
+  h2 { font-size: 1.45rem !important; margin-top: 2.5rem; }
+  .profile-text-box h1 { font-size: 1.8rem; }
+  .profile-text-box h3 { font-size: 1.1rem; }
+
+  /* Navbar */
+  .navbar-brand { font-size: 1.25rem !important; }
+  .navbar-nav .nav-link { font-size: 1.05rem !important; margin-left: 0; }
+
+  /* Profile photo: 240px is most of a phone screen */
+  .profile-img { width: 150px; height: 150px; }
+  .profile-image-box { flex: 0 0 auto; }
+  .profile-keywords { justify-content: center; }
+  .profile-keywords span { font-size: 0.9rem; }
+  .profile-social-links { justify-content: center; }
+  .profile-social-links a { font-size: 0.9rem; }
+
+  /* Body blocks */
+  .abstract-box { font-size: 1rem; padding: 14px 16px; }
+  .paper-abstract { font-size: 0.95rem; }
+  .paper-item h3 { font-size: 1.2rem; }
+  .teach-details { font-size: 1.05rem; }
+  .teach-role { font-size: 0.9rem; }
+  .term-badge { font-size: 0.85rem; }
+  .edu-year { font-size: 1rem; }
+  .eval-stat-box strong { font-size: 1.4rem; }
+  .material-content { font-size: 0.95rem; }
+  .summary-title { font-size: 1rem; }
+
+  /* The CV viewer: 800px of embedded PDF is unreadable on a phone */
+  .cv-viewer-container iframe { height: 60vh !important; }
+
+  /* Layout */
   .profile-container { flex-direction: column; text-align: center; gap: 20px; }
-  .profile-image-box { flex: 0 0 180px; } 
   .edu-row { flex-direction: column; gap: 5px; }
   .edu-year { flex: none; }
   .reference-grid { grid-template-columns: 1fr; }
