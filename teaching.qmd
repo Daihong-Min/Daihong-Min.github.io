@@ -28,11 +28,7 @@ format:
 :::
 :::
 
-<div style="text-align: center; margin-bottom: 40px;">
-  <a href="teaching_evaluations.pdf" class="btn-eval-download" target="_blank" rel="noopener noreferrer">
-    <i class="bi bi-download"></i> Download Full Teaching Evaluation Summary (PDF)
-  </a>
-</div>
+<div class="eval-note">Based on 34 evaluations across 16 terms (n = 375). Full evaluation summaries available upon request.</div>
 
 <br>
 

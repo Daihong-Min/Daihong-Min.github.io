@@ -113,9 +113,11 @@ Many empirical evaluations of corrective excise taxes summarize incidence throug
 
 ## Work in Progress
 
-* **Tariff News and Inflation Expectations** <span style="font-size: 1.2rem; color: var(--text-muted);">with Hyunseo Park and Yungu Cho</span> 
+* **Tariff News and Inflation Expectations** <span class="wip-coauthors">with Hyunseo Park and Yungu Cho</span>
 
-* **The Relationship between Crude Oil and the Stock Market in China** <span style="font-size: 1.2rem; color: var(--text-muted);">with Sun Ho Lee and Jongchan Lee</span>
+* **The Relationship between Crude Oil and the Stock Market in China** <span class="wip-coauthors">with Sun Ho Lee and Jong Chan Lee</span>
+
+* **The Impact of Economic and Monetary Union on Adjustment Speed** <span class="wip-coauthors">with Sang Young Jei</span>
 
 ## Policy Papers
 
