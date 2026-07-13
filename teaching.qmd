@@ -13,22 +13,20 @@ format:
 ## University of California, Davis
 
 ### Teaching Evaluation Summary
-<div style="text-align: right; margin-bottom: -15px; font-size: 0.9rem; color: #7f8c8d; font-style: italic;">
-  (Updated on April 6, 2026)
-</div>
+<div class="eval-date">(Updated on July 12, 2026)</div>
 
 ::: {.eval-stats-container}
 ::: {.eval-stat-box}
-**4.2 / 5.0**
+**4.3 / 5.0**
 <span class="stat-label">Overall teaching effectiveness of the teaching assistant</span>
 :::
 ::: {.eval-stat-box}
-**4.4 / 5.0**
+**4.3 / 5.0**
 <span class="stat-label">Overall, the TA did a good job in this course</span>
 :::
 :::
 
-<div class="eval-note">Based on 34 evaluations across 16 terms (n = 375). Full evaluation summaries available upon request.</div>
+<div class="eval-note">Based on 34 evaluations across 16 terms at UC Davis (n = 375). Full evaluation summaries available upon request.</div>
 
 <br>
 

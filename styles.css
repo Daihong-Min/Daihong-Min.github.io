@@ -404,6 +404,21 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
 .eval-stat-box strong { display: block; font-size: 1.8rem; color: var(--title-color) !important; margin-bottom: 5px; }
 .stat-label { font-size: 0.95rem; color: var(--text-muted) !important; font-weight: 600; }
 
+.eval-date {
+  text-align: right;
+  margin-bottom: -10px;
+  font-size: 0.9rem;
+  color: var(--text-muted) !important;
+  font-style: italic;
+}
+.eval-note {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--text-muted) !important;
+  margin: 16px 0 40px 0;
+}
+
+
 .btn-eval-download {
   display: inline-block;
   padding: 10px 20px;
