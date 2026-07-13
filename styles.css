@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap');
+
+/* =========================================
+   0. FONT SYSTEM
+   --font-prose : serif, for anything you wrote (body text, abstracts, titles)
+   --font-ui    : sans, for chrome (navbar, badges, buttons)
+   Swap either value to restyle the whole site.
+========================================= */
+:root {
+  --font-prose: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
 /* =========================================
    1. 전역 컬러 테마 정의 (CSS 변수 시스템)
 ========================================= */
-/* ☀️ 라이트모드 기본 색상 조합 */
+/* 라이트모드 기본 색상 조합 */
 :root {
   --body-bg: #ffffff;
   --text-main: #2c3e50;
@@ -45,29 +58,98 @@ body.quarto-dark {
    2. 전체 타이포그래피 및 기본 글씨 적용
 ========================================= */
 body {
-  /* ★ MASTER TEXT SIZE. 1rem = 16px (browser default).
-     Raise it to make all body text bigger, lower it to make it smaller.
-     1.5rem was ~24px, which looked enormous on any screen but this one. */
-  font-size: 1.15rem !important;
-  line-height: 1.8;
+  /* ★ MASTER TEXT SIZE. 1rem = 16px (browser default). */
+  font-size: 1.1rem !important;
+  line-height: 1.75;
   color: var(--text-main) !important;
   background-color: var(--body-bg) !important;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  overflow-y: scroll;            
+  font-family: var(--font-prose);
+  overflow-y: scroll;
 }
 
 /* 모든 헤더 타이틀 색상 강제 동기화 */
 h1, h2, h3, h4, h5, h6 {
   color: var(--title-color) !important;
-  font-weight: 700;
+  font-family: var(--font-prose);
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 h2 {
-  font-size: 2.0rem !important;
-  margin-top: 4rem;
+  font-size: 1.75rem !important;
+  margin-top: 3.5rem;
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--border-color) !important;
+  border-bottom: 1px solid var(--border-color) !important;
 }
+
+/* Chrome stays sans. Anything that is UI, not writing. */
+.navbar, .navbar-brand, .nav-link,
+.profile-keywords, .profile-social-links, .profile-contact,
+.btn-paper, .btn-cv-download, .btn-eval-download,
+.term-badge, .teach-role, .stat-label, .edu-year,
+.quarto-color-scheme-toggle::after, .summary-toggle {
+  font-family: var(--font-ui) !important;
+}
+
+/* =========================================
+   JOB MARKET PAPER: title + one-line takeaway
+========================================= */
+.jmp-title {
+  font-family: var(--font-prose);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--title-color) !important;
+  line-height: 1.35;
+  margin-bottom: 10px;
+}
+.jmp-takeaway {
+  font-family: var(--font-prose);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-main) !important;
+  border-left: 3px solid var(--accent-blue) !important;
+  padding-left: 16px;
+  margin: 0 0 20px 0;
+}
+
+/* =========================================
+   COLLAPSIBLE ABSTRACTS
+========================================= */
+details.abstract-toggle {
+  border-top: 1px solid var(--border-color) !important;
+  margin-top: 14px;
+}
+details.abstract-toggle > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 0 2px 0;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted) !important;
+}
+details.abstract-toggle > summary::-webkit-details-marker { display: none; }
+details.abstract-toggle > summary::before {
+  content: "\F285";
+  font-family: "bootstrap-icons";
+  margin-right: 8px;
+  font-size: 0.85rem;
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+details.abstract-toggle[open] > summary::before { transform: rotate(90deg); }
+details.abstract-toggle > summary:hover { color: var(--accent-blue) !important; }
+
+/* Contact block on the homepage */
+.profile-contact {
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--text-muted) !important;
+  margin: 14px 0;
+}
+.profile-contact i { margin-right: 7px; color: var(--text-muted) !important; }
+.profile-contact a { color: var(--text-main) !important; text-decoration: none; }
+.profile-contact a:hover { color: var(--accent-blue) !important; }
 
 /* =========================================
    3. 상단 메뉴바 및 토글 버튼
@@ -102,16 +184,17 @@ h2 {
 .quarto-color-scheme-toggle .bi { display: none !important; }
 
 .quarto-color-scheme-toggle::after {
-  content: "DARK 🌙";
-  font-size: 1.15rem;
-  font-weight: 700;
+  content: "Dark";
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--toggle-text) !important;
   cursor: pointer;
 }
 html[data-bs-theme="dark"] .quarto-color-scheme-toggle::after,
 html[data-mode="dark"] .quarto-color-scheme-toggle::after,
 body.quarto-dark .quarto-color-scheme-toggle::after {
-  content: "LIGHT ☀️" !important;
+  content: "Light" !important;
 }
 
 /* =========================================

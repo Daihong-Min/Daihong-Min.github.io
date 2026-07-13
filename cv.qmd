@@ -7,22 +7,23 @@ toc-location: right
 format:
   html:
     grid:
-      body-width: 1300px
+      body-width: 1000px    # ★ Wider than the prose pages: the reference cards sit two across.
       margin-width: 250px
 ---
 
 ```{=html}
-<div class="cv-viewer-container" style="margin-top: 30px; margin-bottom: 50px;">
-  <div style="text-align: right; margin-bottom: 12px;">
-    <a href="cv.pdf" class="btn-cv-download" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-pdf-fill"></i> Open / Download Full CV in New Tab
-    </a>
-  </div>
-  <iframe src="cv.pdf" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"></iframe>
+<div class="cv-viewer-container" style="margin-top: 24px; margin-bottom: 40px;">
+  <a href="cv.pdf" class="btn-cv-download" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-download"></i> Download full CV (PDF)
+  </a>
+  <details class="abstract-toggle" style="margin-top: 20px;">
+    <summary>Preview in browser</summary>
+    <iframe src="cv.pdf" width="100%" height="800px" style="border: 1px solid var(--border-color); border-radius: 8px; margin-top: 12px;"></iframe>
+  </details>
 </div>
 ```
 
-<hr style="margin: 50px 0; border-top: 1px solid #eee;">
+<hr style="margin: 40px 0; border-top: 1px solid var(--border-color);">
 
 ## Education
 

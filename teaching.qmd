@@ -6,8 +6,8 @@ toc-location: right
 format:
   html:
     grid:
-      body-width: 1300px    # ★ 글이 들어가는 본문 열의 넓이를 강제로 늘립니다
-      margin-width: 250px   # 우측 목차(On this page)가 들어가는 열의 넓이
+      body-width: 1000px    # ★ Wider than the prose pages: the term badges need room on the right.
+      margin-width: 250px
 ---
 
 ## University of California, Davis

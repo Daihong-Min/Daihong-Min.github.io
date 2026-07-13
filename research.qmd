@@ -4,8 +4,8 @@ page-layout: article
 format:
   html:
     grid:
-      body-width: 1300px    # ★ 글이 들어가는 본문 열의 넓이를 강제로 늘립니다
-      margin-width: 250px   # 우측 목차(On this page)가 들어가는 열의 넓이
+      body-width: 900px     # ★ Text column width. ~80 characters per line is the readable maximum.
+      margin-width: 250px
 ---
 
 ## Job Market Paper
@@ -13,16 +13,23 @@ format:
 ::: {.paper-item}
 ### Financial Sanctions and the Dollar Dominance
 
+<div class="jmp-takeaway">U.S. financial sanctions do not cause broad de-dollarization. They push firms off the dollar precisely where trade credit is fragile.</div>
+
 <!-- Draft and slides buttons go back in here in October. Restore with:
 <div class="paper-links">
-  <a href="jmp.pdf" class="btn-paper"><i class="bi bi-file-pdf-fill"></i> Latest Draft (PDF)</a>
-  <a href="jmp_slides.pdf" class="btn-paper"><i class="bi bi-file-earmark-bar-graph"></i> Presentation Slides</a>
+  <a href="jmp.pdf" class="btn-paper"><i class="bi bi-file-pdf"></i> Latest Draft (PDF)</a>
+  <a href="jmp_slides.pdf" class="btn-paper"><i class="bi bi-easel"></i> Presentation Slides</a>
 </div>
 -->
 
+<details class="abstract-toggle">
+<summary>Abstract</summary>
+
 ::: {.paper-abstract}
-**Abstract:** Does the weaponization of dollar finance undermine dollar dominance in global trade? Using a new panel of FX-neutral import invoicing shares from 2012 to 2023, I show that U.S. financial sanctions against Chinese entities induce a selective shift from dollar to RMB invoicing. The response is strongest among countries whose imports from China are concentrated in working-capital-intensive sectors, while countries with low working-capital exposure exhibit almost no RMB switching. This heterogeneity suggests that sanctions do not trigger broad de-dollarization uniformly; instead, they reshape invoicing choices along financially vulnerable supply-chain links. I develop a model in which dominant-currency invoicing offers normal-time liquidity and hedging benefits but exposes firms to sanctions-sensitive working-capital constraints. Exporters borrow to finance intermediate inputs, and banks provide cash-flow-based credit lines whose usable amount depends on the invoicing currency and the realized geopolitical credit state. As U.S. sanctions risk rises, dollar-linked credit lines become less reliable because of the threat of payment disruptions, asset freezes, compliance delays, and reduced dollar settlement capacity. Firms exposed to working-capital-intensive production therefore switch to RMB invoicing to stabilize borrowing capacity. In the model, working-capital exposure lowers the threshold at which a trade relationship abandons dollar invoicing. A quantitative calibration disciplines this threshold mechanism using the reduced-form RMB response. Removing working-capital heterogeneity eliminates the muted response among low-working-capital countries, showing that the working-capital channel is quantitatively central. The findings imply that sanctions can weaken dollar dominance not through universal de-dollarization, but through selective currency switching where dollar liquidity becomes a source of geopolitical funding risk.
+Does the weaponization of dollar finance undermine dollar dominance in global trade? Using a new panel of FX-neutral import invoicing shares from 2012 to 2023, I show that U.S. financial sanctions against Chinese entities induce a selective shift from dollar to RMB invoicing. The response is strongest among countries whose imports from China are concentrated in working-capital-intensive sectors, while countries with low working-capital exposure exhibit almost no RMB switching. This heterogeneity suggests that sanctions do not trigger broad de-dollarization uniformly; instead, they reshape invoicing choices along financially vulnerable supply-chain links. I develop a model in which dominant-currency invoicing offers normal-time liquidity and hedging benefits but exposes firms to sanctions-sensitive working-capital constraints. Exporters borrow to finance intermediate inputs, and banks provide cash-flow-based credit lines whose usable amount depends on the invoicing currency and the realized geopolitical credit state. As U.S. sanctions risk rises, dollar-linked credit lines become less reliable because of the threat of payment disruptions, asset freezes, compliance delays, and reduced dollar settlement capacity. Firms exposed to working-capital-intensive production therefore switch to RMB invoicing to stabilize borrowing capacity. In the model, working-capital exposure lowers the threshold at which a trade relationship abandons dollar invoicing. A quantitative calibration disciplines this threshold mechanism using the reduced-form RMB response. Removing working-capital heterogeneity eliminates the muted response among low-working-capital countries, showing that the working-capital channel is quantitatively central. The findings imply that sanctions can weaken dollar dominance not through universal de-dollarization, but through selective currency switching where dollar liquidity becomes a source of geopolitical funding risk.
 :::
+
+</details>
 :::
 
 
@@ -102,9 +109,14 @@ format:
 </div>
 -->
 
+<details class="abstract-toggle">
+<summary>Abstract</summary>
+
 ::: {.paper-abstract}
-**Abstract:** Many empirical evaluations of corrective excise taxes summarize incidence through average price pass-through. In retail markets, however, consumers face a broader pricing environment that includes regular prices, temporary discounts, and the timing of promotions. This paper studies how retailers allocate a permanent tax shock across these pricing margins. We develop a simple framework in which retailers choose an effective consumer price through a regular price and a promotional margin. Market environments differ in consumer price sensitivity, search frictions, and baseline promotional capacity, generating two empirically testable responses: nominal price adjustment when the promotional margin is constrained, and promotion adjustment when retailers can raise effective prices by reducing discounts. We study the 2018 San Francisco sugar-sweetened beverage tax using NielsenIQ retail scanner data at the store--UPC--week level. Apply a Local Projections Difference-in-Differences, we trace both average and dynamic responses. The average response combines an increase in regular prices with a decline in promotion frequency. Heterogeneity across channels and categories is consistent with the model: grocery stores and traditional soft drinks exhibit gradual regular-price pass-through, while discount stores show more muted regular-price changes and a more persistent contraction in promotion frequency. These findings indicate that tax incidence in retail settings can operate through less visible marketing margins, not only through posted regular prices. They also imply that the welfare and distributional effects of corrective taxes depend on the retail technologies through which taxes are transmitted to consumers.
+Many empirical evaluations of corrective excise taxes summarize incidence through average price pass-through. In retail markets, however, consumers face a broader pricing environment that includes regular prices, temporary discounts, and the timing of promotions. This paper studies how retailers allocate a permanent tax shock across these pricing margins. We develop a simple framework in which retailers choose an effective consumer price through a regular price and a promotional margin. Market environments differ in consumer price sensitivity, search frictions, and baseline promotional capacity, generating two empirically testable responses: nominal price adjustment when the promotional margin is constrained, and promotion adjustment when retailers can raise effective prices by reducing discounts. We study the 2018 San Francisco sugar-sweetened beverage tax using NielsenIQ retail scanner data at the store--UPC--week level. Apply a Local Projections Difference-in-Differences, we trace both average and dynamic responses. The average response combines an increase in regular prices with a decline in promotion frequency. Heterogeneity across channels and categories is consistent with the model: grocery stores and traditional soft drinks exhibit gradual regular-price pass-through, while discount stores show more muted regular-price changes and a more persistent contraction in promotion frequency. These findings indicate that tax incidence in retail settings can operate through less visible marketing margins, not only through posted regular prices. They also imply that the welfare and distributional effects of corrective taxes depend on the retail technologies through which taxes are transmitted to consumers.
 :::
+
+</details>
 :::
 
 ## Work in Progress
