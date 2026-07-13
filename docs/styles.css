@@ -226,18 +226,20 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
 /* Field 태그 — ★ must stay on ONE line. nowrap + smaller type is what does it. */
 .profile-keywords {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 8px;
+  flex-wrap: nowrap !important;
+  gap: 6px;
   margin-bottom: 15px;
+  white-space: nowrap;
 }
 .profile-keywords span {
   background-color: var(--badge-bg) !important;
   color: var(--badge-text) !important;
-  padding: 5px 12px;
+  padding: 4px 11px;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  white-space: nowrap;
+  white-space: nowrap !important;
+  flex: 0 0 auto;
 }
 
 /* 소셜 링크 */
@@ -360,7 +362,7 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   transition: transform 0.2s ease;
 }
 .teach-row:hover { transform: translateX(5px); }
-.teach-details { flex: 1 1 auto; font-size: 1.2rem; color: var(--title-color) !important; line-height: 1.4; }
+.teach-details { flex: 1 1 auto; min-width: 0; font-size: 1.2rem; color: var(--title-color) !important; line-height: 1.4; }
 .teach-role { font-size: 1.05rem; color: var(--text-muted) !important; font-style: italic; display: inline-block; margin-top: 4px; }
 .teach-role i { margin-right: 5px; }
 
