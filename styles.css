@@ -463,7 +463,14 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   /* Profile photo: 240px is most of a phone screen */
   .profile-img { width: 150px; height: 150px; }
   .profile-image-box { flex: 0 0 auto; }
-  .profile-keywords { justify-content: center; }
+  /* Stop the text column from overflowing the phone screen. */
+  .profile-text-box { min-width: 0; max-width: 100%; }
+  /* Let the three field tags wrap on a phone (desktop keeps them on one line). */
+  .profile-keywords {
+    justify-content: center;
+    flex-wrap: wrap !important;
+    white-space: normal !important;
+  }
   .profile-keywords span { font-size: 0.9rem; }
   .profile-social-links { justify-content: center; }
   .profile-social-links a { font-size: 0.9rem; }
