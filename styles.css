@@ -455,6 +455,12 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   h2 { font-size: 1.45rem !important; margin-top: 2.5rem; }
   .profile-text-box h1 { font-size: 1.8rem; }
   .profile-text-box h3 { font-size: 1.1rem; }
+  /* Drop "(pronounced day-hong min)" onto its own centered line under the name. */
+  .profile-text-box h1 span {
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 3px;
+  }
 
   /* Navbar */
   .navbar-brand { font-size: 1.25rem !important; }
@@ -463,9 +469,12 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   /* Profile photo: 240px is most of a phone screen */
   .profile-img { width: 150px; height: 150px; }
   .profile-image-box { flex: 0 0 auto; }
-  /* Stop the text column from overflowing the phone screen. */
+  /* ★ Stop the text column from ballooning wider than the phone screen.
+     Without min-width:0 a flex child refuses to shrink below its widest
+     content, which was dragging the centered name off both edges. */
   .profile-text-box { min-width: 0; max-width: 100%; }
-  /* Let the three field tags wrap on a phone (desktop keeps them on one line). */
+  /* On a phone the three field tags cannot fit on one line — let them wrap.
+     (Desktop keeps them on one line via the nowrap rule above.) */
   .profile-keywords {
     justify-content: center;
     flex-wrap: wrap !important;

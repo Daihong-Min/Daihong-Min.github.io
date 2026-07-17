@@ -439,6 +439,12 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   /* Headers */
   h2 { font-size: 1.45rem !important; margin-top: 2.5rem; }
   .profile-text-box h1 { font-size: 1.8rem; }
+  /* Drop "(pronounced day-hong min)" onto its own centered line under the name. */
+  .profile-text-box h1 span {
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 3px;
+  }
   .profile-text-box h3 { font-size: 1.1rem; }
 
   /* Navbar */
