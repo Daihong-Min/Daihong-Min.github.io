@@ -96,7 +96,7 @@ Does the weaponization of dollar finance undermine dollar dominance in global tr
 ## Working Papers
 
 ::: {.paper-item}
-### Passing the Tax Through Promotions: Endogenous Marketing Margins and Heterogeneous Frictions
+### Which Margin Moves? Promotional Slack and the Pass-Through of a Sugar-Sweetened Beverage Tax
 *with Kristin Kiesel and Yijoong Won*
 
 <!-- Draft and appendix buttons go back in here in October. Restore with:
