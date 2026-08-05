@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.daihongmin.com/teaching.html</loc>
-    <lastmod>2026-07-13T05:17:24.968Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.daihongmin.com/index.html</loc>
-    <lastmod>2026-07-13T04:46:13.997Z</lastmod>
+    <lastmod>2026-08-05T05:17:24.402Z</lastmod>
   </url>
   <url>
-    <loc>https://www.daihongmin.com/about.html</loc>
-    <lastmod>2026-07-13T03:06:02.312Z</lastmod>
+    <loc>https://www.daihongmin.com/teaching.html</loc>
+    <lastmod>2026-08-05T05:22:36.186Z</lastmod>
   </url>
   <url>
     <loc>https://www.daihongmin.com/cv.html</loc>
-    <lastmod>2026-07-13T04:31:39.216Z</lastmod>
+    <lastmod>2026-08-05T05:17:24.392Z</lastmod>
   </url>
   <url>
     <loc>https://www.daihongmin.com/research.html</loc>
-    <lastmod>2026-07-13T05:17:40.258Z</lastmod>
+    <lastmod>2026-08-05T05:17:24.402Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.daihongmin.com/about.html</loc>
+    <lastmod>2026-08-05T05:17:24.392Z</lastmod>
   </url>
 </urlset>
