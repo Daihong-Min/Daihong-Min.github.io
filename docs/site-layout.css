@@ -1,0 +1,17 @@
+/* Compact navigation across the site. */
+.navbar {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.navbar-brand { font-size: 1.4rem !important; }
+.navbar-nav .nav-link {
+  font-size: 1rem !important;
+  margin-left: 14px;
+}
+.quarto-color-scheme-toggle { width: 76px !important; }
+.quarto-color-scheme-toggle::after { font-size: 0.875rem; }
+
+@media (max-width: 768px) {
+  .navbar-brand { font-size: 1.2rem !important; }
+  .navbar-nav .nav-link { font-size: 1rem !important; margin-left: 0; }
+}

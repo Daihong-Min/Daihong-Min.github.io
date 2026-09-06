@@ -7,7 +7,9 @@ format:
   html:
     css:
       - styles.css
+      - site-layout.css
       - profile-layout.css
+      - profile-balance.css
     grid:
       body-width: 900px     # ★ Text column width. ~80 characters per line is the readable maximum.
       margin-width: 250px

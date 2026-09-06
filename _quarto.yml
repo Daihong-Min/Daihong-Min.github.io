@@ -32,5 +32,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    css: styles.css
+    css:
+      - styles.css
+      - site-layout.css
     toc: true
