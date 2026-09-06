@@ -30,7 +30,6 @@ format:
   <div class="profile-actions" aria-label="Job market resources">
     <a class="profile-action profile-action-primary" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
     <a class="profile-action" href="#job-market-paper">Job Market Paper</a>
-    <a class="profile-action profile-action-email" href="mailto:dhmin@ucdavis.edu">Email</a>
   </div>
 </div>
 ```
