@@ -210,26 +210,32 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
 .profile-container {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.profile-image-box { flex: 0 0 180px; }
+.profile-image-box { flex: 0 0 224px; }
+.profile-image-box p { margin: 0; }
 .profile-img {
-  width: 240px; height: 240px;
-  object-fit: cover; border-radius: 50%; 
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  display: block;
+  width: 100%;
+  max-width: 224px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
 }
+.profile-text-box { min-width: 0; }
 .profile-text-box h1 { font-size: 2.8rem; margin-bottom: 5px; }
+.profile-text-box h1 span { display: inline-block; }
 .profile-text-box h3 { font-size: 1.45rem; color: var(--text-muted) !important; margin-bottom: 12px; }
 
-/* Field 태그 — ★ must stay on ONE line. nowrap + smaller type is what does it. */
+/* Keep individual field labels intact, allowing rows to wrap beside the portrait. */
 .profile-keywords {
   display: flex;
-  flex-wrap: nowrap !important;
+  flex-wrap: wrap;
   gap: 6px;
   margin-bottom: 15px;
-  white-space: nowrap;
+  white-space: normal;
 }
 .profile-keywords span {
   background-color: var(--badge-bg) !important;
@@ -466,15 +472,14 @@ body.quarto-dark .quarto-color-scheme-toggle::after {
   .navbar-brand { font-size: 1.25rem !important; }
   .navbar-nav .nav-link { font-size: 1.05rem !important; margin-left: 0; }
 
-  /* Profile photo: 240px is most of a phone screen */
-  .profile-img { width: 150px; height: 150px; }
-  .profile-image-box { flex: 0 0 auto; }
+  /* Preserve the full portrait while keeping the mobile header compact. */
+  .profile-img { max-width: 176px; }
+  .profile-image-box { flex: 0 0 auto; width: min(176px, 100%); }
   /* ★ Stop the text column from ballooning wider than the phone screen.
      Without min-width:0 a flex child refuses to shrink below its widest
      content, which was dragging the centered name off both edges. */
   .profile-text-box { min-width: 0; max-width: 100%; }
-  /* On a phone the three field tags cannot fit on one line — let them wrap.
-     (Desktop keeps them on one line via the nowrap rule above.) */
+  /* Center wrapped field labels on phones. */
   .profile-keywords {
     justify-content: center;
     flex-wrap: wrap !important;

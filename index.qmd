@@ -12,7 +12,7 @@ format:
 
 ::: {.profile-container}
 ::: {.profile-image-box}
-![](profile.jpg){.profile-img}
+<img src="profile-website.png" class="profile-img" alt="Portrait of Daihong Min" width="1122" height="1402" fetchpriority="high" decoding="async">
 :::
 
 ::: {.profile-text-box}
