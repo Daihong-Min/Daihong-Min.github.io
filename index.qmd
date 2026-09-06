@@ -10,6 +10,7 @@ format:
       - site-layout.css
       - profile-layout.css
       - profile-balance.css
+      - profile-market.css
     grid:
       body-width: 900px     # ★ Text column width. ~80 characters per line is the readable maximum.
       margin-width: 250px
@@ -23,9 +24,21 @@ format:
 ::: {.profile-text-box}
 # Daihong Min <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(pronounced *day-hong min*)</span>
 
+```{=html}
+<div class="profile-market">
+  <p class="profile-market-status">2026–2027 Academic Job Market</p>
+  <div class="profile-actions" aria-label="Job market resources">
+    <a class="profile-action profile-action-primary" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    <a class="profile-action" href="#job-market-paper">Job Market Paper</a>
+    <a class="profile-action profile-action-email" href="mailto:dhmin@ucdavis.edu">Email</a>
+  </div>
+</div>
+```
+
 ### Ph.D. Candidate in Economics
 University of California, Davis
 
+```{=html}
 <div class="profile-keywords">
   <span>International Macroeconomics</span>
   <span>International Finance</span>
@@ -33,15 +46,15 @@ University of California, Davis
 </div>
 
 <div class="profile-contact">
-  <span><i class="bi bi-geo-alt"></i> 134 Social Sciences &amp; Humanities Building, 1 Shields Ave, Davis, CA 95616</span><br>
-  <span><i class="bi bi-envelope"></i> <a href="mailto:dhmin@ucdavis.edu">dhmin [at] ucdavis.edu</a></span>
+  <a class="profile-email" href="mailto:dhmin@ucdavis.edu"><i class="bi bi-envelope" aria-hidden="true"></i> <span>dhmin [at] ucdavis.edu</span></a>
+  <span class="profile-full-address"><i class="bi bi-geo-alt" aria-hidden="true"></i> <span>134 Social Sciences &amp; Humanities Building, 1 Shields Ave, Davis, CA 95616</span></span>
 </div>
 
 <div class="profile-social-links">
-  <a href="https://scholar.google.co.kr/citations?user=9xPqwXAAAAAJ&hl=en" target="_blank" rel="noopener"><i class="bi bi-mortarboard"></i> Google Scholar</a>
-  <a href="https://www.linkedin.com/in/daihongmin" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
-  <a href="cv.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text"></i> CV</a>
+  <a href="https://scholar.google.co.kr/citations?user=9xPqwXAAAAAJ&hl=en" target="_blank" rel="noopener"><i class="bi bi-mortarboard" aria-hidden="true"></i> Google Scholar</a>
+  <a href="https://www.linkedin.com/in/daihongmin" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a>
 </div>
+```
 :::
 :::
 
