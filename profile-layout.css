@@ -1,0 +1,25 @@
+/* Homepage portrait layout, loaded after the shared site stylesheet. */
+.profile-container { gap: 40px; }
+.profile-image-box { flex: 0 0 224px; }
+.profile-image-box p { margin: 0; }
+.profile-img {
+  display: block;
+  width: 100%;
+  max-width: 224px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+.profile-text-box { min-width: 0; }
+.profile-text-box h1 span { display: inline-block; }
+.profile-keywords {
+  flex-wrap: wrap !important;
+  white-space: normal;
+}
+
+@media (max-width: 768px) {
+  .profile-container { gap: 20px; }
+  .profile-img { max-width: 176px; }
+  .profile-image-box { flex: 0 0 auto; width: min(176px, 100%); }
+  .profile-text-box h1 span { display: block; }
+}

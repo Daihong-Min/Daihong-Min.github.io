@@ -5,6 +5,9 @@ toc: false
 toc-location: right
 format:
   html:
+    css:
+      - styles.css
+      - profile-layout.css
     grid:
       body-width: 900px     # ★ Text column width. ~80 characters per line is the readable maximum.
       margin-width: 250px
