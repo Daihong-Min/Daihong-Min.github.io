@@ -2,6 +2,7 @@ name: Build CV
 
 on:
   push:
+    branches: [main]
     paths:
       - 'cv.tex'
       - '.github/workflows/build-cv.yml'
@@ -10,25 +11,49 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: build-cv
+  cancel-in-progress: false
+
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Compile cv.tex
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@e2f99d4b3685b0da93f97e1b86ad8fab81105098 # v3
         with:
           root_file: cv.tex
 
       - name: Put the PDF where the site can find it
-        run: cp cv.pdf docs/cv.pdf
+        run: |
+          test -s cv.pdf
+          head -c 5 cv.pdf | grep -Fq '%PDF-'
+          cp cv.pdf docs/cv.pdf
 
       - name: Commit the rebuilt PDF
         run: |
+          set -euo pipefail
           git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add cv.pdf docs/cv.pdf
           git diff --staged --quiet || git commit -m "Rebuild cv.pdf from cv.tex"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git show origin/main:cv.tex | cmp -s - cv.tex; then
+              echo 'A newer CV source arrived during compilation; its build will publish the new PDF.' >&2
+              exit 1
+            fi
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
