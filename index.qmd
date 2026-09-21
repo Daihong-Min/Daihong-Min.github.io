@@ -41,7 +41,7 @@ University of California, Davis
 <div class="profile-keywords">
   <span>International Macroeconomics</span>
   <span>International Finance</span>
-  <span>International Trade</span>
+  <span>Political Economy</span>
 </div>
 
 <div class="profile-contact">
