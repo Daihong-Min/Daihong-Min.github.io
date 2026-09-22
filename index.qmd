@@ -22,7 +22,7 @@ format:
 :::
 
 ::: {.profile-text-box}
-# Daihong Min <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(pronounced *day-hong min*)</span>
+# Daihong Min <span class="profile-pronunciation">(pronounced *day-hong min*)</span>
 
 ```{=html}
 <div class="profile-market">
@@ -41,7 +41,7 @@ University of California, Davis
 <div class="profile-keywords">
   <span>International Macroeconomics</span>
   <span>International Finance</span>
-  <span>Political Economy</span>
+  <span>Political Economics</span>
 </div>
 
 <div class="profile-contact">

@@ -8,15 +8,23 @@
 .profile-image-box { flex-basis: 260px; }
 .profile-img { max-width: 260px; }
 .profile-text-box h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 18px;
   font-size: 2.15rem;
   line-height: 1.2;
   margin: 0 0 14px;
 }
-.profile-text-box h1 span {
-  display: block;
+.profile-text-box h1 .profile-pronunciation {
+  display: inline-block;
+  flex: 0 0 auto;
   font-size: 0.95rem !important;
+  font-weight: 400;
+  color: var(--text-muted);
   line-height: 1.4;
-  margin: 5px 0 0 !important;
+  margin: 0 !important;
+  white-space: nowrap;
 }
 .profile-text-box h3 {
   font-size: 1.18rem;
@@ -28,6 +36,10 @@
   .profile-container { align-items: center; gap: 20px; margin-top: 12px; }
   .profile-image-box { flex-basis: auto; width: min(192px, 100%); }
   .profile-img { max-width: 192px; }
-  .profile-text-box h1 { font-size: 1.7rem; }
+  .profile-text-box h1 {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7rem;
+  }
   .profile-text-box h3 { font-size: 1.08rem; }
 }
