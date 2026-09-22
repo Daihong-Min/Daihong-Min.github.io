@@ -39,9 +39,9 @@ University of California, Davis
 
 ```{=html}
 <div class="profile-keywords">
-  <span>International Macroeconomics</span>
-  <span>International Finance</span>
-  <span>Political Economics</span>
+  <span>International Economics</span>
+  <span>Macroeconomics</span>
+  <span>Geoeconomics</span>
 </div>
 
 <div class="profile-contact">
@@ -63,7 +63,7 @@ University of California, Davis
 
 I am a Ph.D. candidate in the Department of Economics at the University of California, Davis. **I will be on the 2026-2027 academic job market.**
 
-My research lies at the intersection of international macroeconomics, international finance, and political economics. I study how geopolitical risk and financial frictions shape currency choice in international trade and the global role of the U.S. dollar.
+My research lies at the intersection of international economics, macroeconomics, and geoeconomics. I study how geopolitical risk and financial frictions shape currency choice in international trade and the global role of the U.S. dollar.
 
 My job market paper examines how U.S. financial sanctions against Chinese entities affect dollar dominance in trade invoicing. Combining cross-country invoicing data, measures of working-capital dependence, and a quantitative model of exporters' currency choice, I investigate how risks to dollar financing can encourage a shift toward renminbi invoicing along trade links to China. My findings highlight the reliability of working-capital finance as a channel connecting geopolitical risk to international currency use.
 
