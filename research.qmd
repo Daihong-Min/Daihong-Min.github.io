@@ -1,113 +1,55 @@
 ---
 title: "Research"
 page-layout: article
+toc-depth: 2
 format:
   html:
+    css:
+      - styles.css
+      - site-layout.css
+      - research-layout.css
     grid:
-      body-width: 900px     # ★ Text column width. ~80 characters per line is the readable maximum.
+      body-width: 900px
       margin-width: 250px
 ---
 
 ## Job Market Paper
 
 ::: {.paper-item}
-### Financial Sanctions and the Dollar Dominance
+### Financial Sanctions and Dollar Dominance in Trade Invoicing
 
-<div class="jmp-status">Manuscript forthcoming. Draft available upon request.</div>
+<div class="jmp-status">Draft available upon request.</div>
 
-<div class="jmp-takeaway">U.S. financial sanctions do not cause broad de-dollarization. They push firms off the dollar precisely where trade credit is fragile.</div>
-
-<!-- Draft and slides buttons go back in here in October. Restore with:
-<div class="paper-links">
-  <a href="jmp.pdf" class="btn-paper"><i class="bi bi-file-pdf"></i> Latest Draft (PDF)</a>
-  <a href="jmp_slides.pdf" class="btn-paper"><i class="bi bi-easel"></i> Presentation Slides</a>
-</div>
--->
+<div class="jmp-takeaway">The reliability of working-capital finance helps explain how sanctions can reshape currency choice along trade links to China.</div>
 
 ::: {.paper-abstract}
-Does the weaponization of dollar finance undermine dollar dominance in global trade? Using a new panel of FX-neutral import invoicing shares from 2012 to 2023, I show that U.S. financial sanctions against Chinese entities induce a selective shift from dollar to RMB invoicing. The response is strongest among countries whose imports from China are concentrated in working-capital-intensive sectors, while countries with low working-capital exposure exhibit almost no RMB switching. This heterogeneity suggests that sanctions do not trigger broad de-dollarization uniformly; instead, they reshape invoicing choices along financially vulnerable supply-chain links. I develop a model in which dominant-currency invoicing offers normal-time liquidity and hedging benefits but exposes firms to sanctions-sensitive working-capital constraints. Exporters borrow to finance intermediate inputs, and banks provide cash-flow-based credit lines whose usable amount depends on the invoicing currency and the realized geopolitical credit state. As U.S. sanctions risk rises, dollar-linked credit lines become less reliable because of the threat of payment disruptions, asset freezes, compliance delays, and reduced dollar settlement capacity. Firms exposed to working-capital-intensive production therefore switch to RMB invoicing to stabilize borrowing capacity. In the model, working-capital exposure lowers the threshold at which a trade relationship abandons dollar invoicing. A quantitative calibration disciplines this threshold mechanism using the reduced-form RMB response. Removing working-capital heterogeneity eliminates the muted response among low-working-capital countries, showing that the working-capital channel is quantitatively central. The findings imply that sanctions can weaken dollar dominance not through universal de-dollarization, but through selective currency switching where dollar liquidity becomes a source of geopolitical funding risk.
-:::
-:::
-
-
-## Publications
-
-::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
-<div style="flex: 1; min-width: 300px;">
-  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Purchasing Power Parity vs. Uncovered Interest Rate Parity for NAFTA Countries: The value of Incorporating Time-Varying Parameter Model"</span>    
-  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Economic Modelling*, 2020</span>
-</div>
-<div style="display: flex; gap: 10px;">
-  <a href="https://doi.org/10.1016/j.econmod.2019.11.034" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
-</div>
+Does the use of financial sanctions weaken dollar dominance in trade invoicing? Using a panel of FX-neutral import invoicing shares for 88 countries over 2012–2023, I examine how responses to U.S. sanctions against Chinese entities vary with baseline import exposure to China. For a one-standard-deviation increase in log sanctions intensity, a 10 percentage point (pp) higher China import share is associated with a contemporaneous Chinese renminbi (RMB) response that is 0.19 pp higher and a U.S. dollar (USD) response that is 0.84 pp lower. The RMB exposure gradient is flatter among destinations whose imports from China have low working-capital intensity. I develop a model in which exporters balance the dollar's normal-time financing and hedging benefits against sanctions-related disruptions to usable credit. The model identifies conditions under which greater working-capital dependence lowers the threshold for switching to RMB invoicing. In the reference quantitative specification, removing working-capital heterogeneity prevents the model from reproducing the low-WCI attenuation, even after re-fitting the remaining parameters. A separate retrospective comparison finds modest improvements in subsequent invoicing paths when working-capital heterogeneity is included. These findings point to the reliability of working-capital finance as a channel through which sanctions can reshape currency choice along trade links to China.
 :::
 
-::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
-<div style="flex: 1; min-width: 300px;">
-  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Empirical Test of Purchasing Power Parity Using a Time-Varying Cointegration Model for China and the UK"</span>    
-  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Physica A: Statistical Mechanics and its Applications*, 2019</span>
-</div>
-<div style="display: flex; gap: 10px;">
-  <a href="https://doi.org/10.1016/j.physa.2019.01.072" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
-</div>
+::: {.paper-presentations}
+**Presentations:** Southern Economic Association (2026, scheduled); Western Economic Association International Annual Conference (2026); UC Davis Macro/International Seminar (2025, 2026).
 :::
-
-::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
-<div style="flex: 1; min-width: 300px;">
-  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Impacts of China's Trade on Sectoral Employment Rates"</span>    
-  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of Industrial Economics and Business*, 2019</span>
-</div>
-<div style="display: flex; gap: 10px;">
-  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002480753" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
-</div>
 :::
-
-::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
-<div style="flex: 1; min-width: 300px;">
-  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Analysis of the Estimation of Demand Elasticity for Non-Alcoholic Beverage"</span> <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>    
-  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of The Korean Data Analysis Society*, 2019</span>
-</div>
-<div style="display: flex; gap: 10px;">
-  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002440184" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
-</div>
-:::
-
-::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
-<div style="flex: 1; min-width: 300px;">
-  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"Impact of Price Disclosure on Gas Market Pricing: Applying Time-varying Cointegration Models"</span>  <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>    
-  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of Industrial Economics and Business*, 2019</span>
-</div>
-<div style="display: flex; gap: 10px;">
-  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002515816" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
-</div>
-:::
-
-::: {.paper-item style="margin-bottom: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;"}
-<div style="flex: 1; min-width: 300px;">
-  <span style="font-size: 1.4rem; font-weight: 700; color: var(--title-color);">"China's International Trade and Employment by Sector: Private versus Public"</span> <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>    
-  <span style="font-size: 1.2rem; color: var(--text-muted); margin-left: 8px;">*Journal of The Korean Data Analysis Society*, 2018</span>
-</div>
-<div style="display: flex; gap: 10px;">
-  <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002363576" class="btn-paper" target="_blank" style="padding: 4px 10px; font-size: 0.95rem;"><i class="bi bi-file-earmark-pdf"></i> Link to Publication</a>
-</div>
-:::
-
 
 ## Working Papers
 
 ::: {.paper-item}
-### Which Margin Moves? Promotional Slack and the Pass-Through of a Sugar-Sweetened Beverage Tax
-*with Kristin Kiesel and Yijoong Won*
+### Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes
 
-<!-- Draft and appendix buttons go back in here in October. Restore with:
-<div class="paper-links">
-  <a href="ssb_draft.pdf" class="btn-paper"><i class="bi bi-file-pdf-fill"></i> Draft</a>
-  <a href="ssb_appendix.pdf" class="btn-paper"><i class="bi bi-journal-text"></i> Online Appendix</a>
-</div>
--->
+*with Yijoong Won and [Kristin Kiesel](https://kiesel.ucdavis.edu/)*
 
 ::: {.paper-abstract}
-Evaluations of corrective excise taxes usually read incidence from the average change in price. Yet the price a consumer pays combines a regular price with temporary promotions, so the same tax can raise the regular price, cut the frequency of discounts, or both. We ask how retailers divide a permanent tax between these two margins. A simple model makes the regular price costly to change and promotions cheaper but bounded by pre-tax slack, so low-slack markets raise the regular price and high-slack markets cut promotions. We study the 2018 San Francisco sugar-sweetened beverage tax with NielsenIQ scanner data, using a difference-in-differences design with Sacramento as control and a local-projections version for the dynamics. The tax raises the effective price by about 73 percent on average, and every channel but one passes it to consumers: low-slack grocery stores and soft drinks through the regular price, high-slack discount stores through a persistent promotion cut while their regular price barely moves. Incidence can run through promotional margins that posted-price measures miss, so the welfare and distributional effects of these taxes depend on the margin through which they pass.
+The effective price a consumer pays at a store combines a regular price with temporary promotions. A tax can raise the regular price, cut the frequency of discounts, or both. The effective price hides which margin moves. The paper asks how retailers split a permanent tax between the two. A simple model makes the regular price costly to change and promotions cheaper but bounded by pre-tax slack, so low-slack markets raise the regular price and high-slack markets cut promotions. We study the 2018 San Francisco sugar-sweetened beverage tax with NielsenIQ scanner data, in a difference-in-differences design with Sacramento as the control and a local-projections version for the dynamics. On average the tax passes through to consumers at about 73 percent, in every channel but one. Low-slack grocery stores and soft drinks move the regular price; high-slack discount stores cut promotions and hold the regular price nearly flat. Because incidence can run through promotions that the effective price misses, the distributional reading of these taxes depends on which margin moves.
+:::
+:::
+
+::: {.paper-item}
+### Does Habitual Demand Survive a Household Health Shock? Evidence from Retail Diabetes-Device Purchases
+
+*with Yifan Xie*
+
+::: {.paper-abstract}
+Soft-drink purchases are highly persistent, and macroeconomic models use habit formation in individual goods to explain sluggish demand and incomplete price pass-through. Evidence for this mechanism largely comes from responses to price, tax, and income shocks, which may also reflect slow price adjustment or delayed awareness. We examine whether this persistence extends to a household-specific health event. Using Nielsen scanner data linked to survey-reported diagnoses, we identify retail monitoring onset from households’ first observed purchases of glucose meters or test strips. Local projection difference-in-differences estimates compare these households with those recording neither a monitoring purchase nor a diabetes diagnosis. Regular soda purchases decline within two quarters and remain lower for two years. The average reduction is 70.5 ounces per household per quarter, approximately 11 percent of purchases before onset. The decline in regular soda’s share is accompanied by a corresponding increase in diet soda’s share. Among households whose monitoring purchases precede the reported diagnosis year, the decline begins in the purchase quarter. The adjustment is concentrated in the first two quarters, while roughly 90 percent of baseline purchases remain. These findings suggest that households respond promptly to the onset of retail monitoring but make limited changes to an otherwise persistent purchasing pattern.
 :::
 :::
 
@@ -115,26 +57,96 @@ Evaluations of corrective excise taxes usually read incidence from the average c
 
 * **Tariff News and Inflation Expectations** <span class="wip-coauthors">with Hyunseo Park and Yungu Cho</span>
 
-* **The Relationship between Crude Oil and the Stock Market in China** <span class="wip-coauthors">with Sun Ho Lee and Jong Chan Lee</span>
-
 * **The Impact of Economic and Monetary Union on Adjustment Speed** <span class="wip-coauthors">with Sang Young Jei</span>
+
+## Publications
+
+::: {.paper-item .paper-item-compact}
+### Purchasing Power Parity vs. Uncovered Interest Rate Parity for NAFTA Countries: The value of Incorporating Time-Varying Parameter Model
+
+::: {.paper-meta}
+with Jong Cheol Yoon and Sang Young Jei\
+*Economic Modelling*, 90 (2020)
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://doi.org/10.1016/j.econmod.2019.11.034){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
+
+::: {.paper-item .paper-item-compact}
+### Empirical Test of Purchasing Power Parity Using a Time-Varying Cointegration Model for China and the UK
+
+::: {.paper-meta}
+with Jong Cheol Yoon and Sang Young Jei\
+*Physica A: Statistical Mechanics and its Applications*, 521 (2019)
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://doi.org/10.1016/j.physa.2019.01.072){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
+
+::: {.paper-item .paper-item-compact}
+### Impact of Price Disclosure on Gas Market Pricing: Applying Time-varying Cointegration Models
+
+::: {.paper-meta}
+with Jong Cheol Yoon and Sang Young Jei\
+*Journal of Industrial Economics and Business*, 32(5) (2019) · Korean
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002515816){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
+
+::: {.paper-item .paper-item-compact}
+### Impacts of China's Trade on Sectoral Employment Rates
+
+::: {.paper-meta}
+with Jong Chan Lee and Sang Young Jei\
+*Journal of Industrial Economics and Business*, 32(3) (2019)
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002480753){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
+
+::: {.paper-item .paper-item-compact}
+### Analysis of the Estimation of Demand Elasticity for Non-Alcoholic Beverage
+
+::: {.paper-meta}
+with Won Nyon Kim and Sang Young Jei\
+*Journal of The Korean Data Analysis Society*, 21(1) (2019) · Korean
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002440184){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
+
+::: {.paper-item .paper-item-compact}
+### China's International Trade and Employment by Sector: Private versus Public
+
+::: {.paper-meta}
+with Jong Chan Lee and Sang Young Jei\
+*Journal of The Korean Data Analysis Society*, 20(3) (2018) · Korean
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002363576){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
 
 ## Policy Papers
 
-::: {.paper-item}
-### Analysis of the Effects of Infrastructure Investment on Economic Growth <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>
-*NATIONAL ASSEMBLY BUDGET OFFICE*, 2020
+::: {.paper-item .paper-item-compact}
+### Analysis of the Effects of Infrastructure Investment on Economic Growth
 
-<div class="paper-links">
-  <a href="https://www.nabo.go.kr/ko/report/policyView.do?key=2507040010&idx=7402" class="btn-paper"><i class="bi bi-link-45deg"></i> Link to Publication</a>
-</div>
+::: {.paper-meta}
+with Yonghun Jung and Seong-Hoon Lee\
+*National Assembly Budget Office*, 2020 · Korean
 :::
 
-::: {.paper-item}
-### The Economic Effects of Gyeongbu-Expressway <span style="font-size: 1.3rem; font-weight: 400; color: var(--text-muted); vertical-align: middle; margin-left: 8px;">(*Korean*)</span>
-*KOREA EXPRESSWAY CORPORATION RESEARCH INSTITUTE*, 2020
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://www.nabo.go.kr/ko/report/policyView.do?key=2507040010&idx=7402){.publication-link target="_blank" rel="noopener noreferrer"}
+:::
 
-<div class="paper-links">
-  <a href="https://www.alio.go.kr/item/itemBoardB1260.do?disclosureNo=2020073102069780&apbaId=C0183&nowcode=B1260&reportFormNo=B1260&table_name=COMM_BOARD&idx_name=BOARD_NO&idx=2744639&reportGbn=N&bid_type=0" class="btn-paper"><i class="bi bi-link-45deg"></i> Link to Publication</a>
-</div>
+::: {.paper-item .paper-item-compact}
+### The Economic Effects of Gyeongbu-Expressway
+
+::: {.paper-meta}
+with Yonghun Jung and Seong-Hoon Lee\
+*Korea Expressway Corporation Research Institute*, 2020 · Korean
+:::
+
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> View publication](https://www.alio.go.kr/item/itemBoardB1260.do?disclosureNo=2020073102069780&apbaId=C0183&nowcode=B1260&reportFormNo=B1260&table_name=COMM_BOARD&idx_name=BOARD_NO&idx=2744639&reportGbn=N&bid_type=0){.publication-link target="_blank" rel="noopener noreferrer"}
 :::

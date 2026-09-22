@@ -1,0 +1,55 @@
+/* Compact bibliography entries keep the current research visually prominent. */
+.paper-item.paper-item-compact {
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+}
+
+.paper-item.paper-item-compact h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 7px;
+}
+
+.paper-item-compact .paper-meta {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.paper-item-compact .paper-meta p {
+  margin-bottom: 7px;
+}
+
+.paper-item-compact > p:last-child {
+  margin-bottom: 0;
+}
+
+.publication-link {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.publication-link:hover,
+.publication-link:focus-visible {
+  text-decoration: underline;
+}
+
+.paper-presentations {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .paper-item.paper-item-compact h3 {
+    font-size: 1.05rem;
+  }
+
+  .paper-item-compact .paper-meta,
+  .paper-presentations {
+    font-size: 0.9rem;
+  }
+}
