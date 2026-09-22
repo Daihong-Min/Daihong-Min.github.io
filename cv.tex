@@ -3,6 +3,7 @@
 \usepackage{geometry}
 \geometry{margin=1in}
 \usepackage{enumitem}
+\setlist[itemize]{topsep=3pt,itemsep=3pt,parsep=0pt,partopsep=0pt}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
@@ -36,8 +37,8 @@
 \newcommand{\subsubentry}[2]{%
   {\small#1} \hfill {\small\textit{#2}}\\
 }
-% Same as \subsubentry, but adds a controlled gap before the next institution.
-% Change the [9pt] below to tune the space between Education blocks.
+% Add a consistent gap after the Fields and Thesis lines.
+% Change the [9pt] below to tune the space between Education groups.
 \newcommand{\subsubentrylast}[2]{%
   {\small#1} \hfill {\small\textit{#2}}\\[9pt]
 }
@@ -52,9 +53,10 @@
     \vspace{0.1em}
     \small\noindent \textit{Updated \today}}\\[5pt]
     \href{https://www.daihongmin.com/}{\faGlobe\ daihongmin.com} \quad
+    \href{https://scholar.google.com/citations?user=9xPqwXAAAAAJ&hl=en}{\faGoogle\ Google Scholar} \quad
+    \href{https://www.linkedin.com/in/daihongmin/}{\faLinkedin\ LinkedIn}\\[3pt]
     \href{mailto:dhmin@ucdavis.edu}{\faEnvelope\ dhmin@ucdavis.edu} \quad
-    \faPhone\ (530) 761-6182 \quad
-    \href{https://scholar.google.com/citations?user=9xPqwXAAAAAJ&hl=en}{\faGoogle\ Google Scholar}\\[5pt]
+    \faPhone\ (530) 761-6182\\[5pt]
     Department of Economics, University of California Davis\\
     One Shields Avenue, Davis, CA 95616
 \end{center}
@@ -67,8 +69,8 @@
 \subentry{Korea University}{}
 \subsubentry{Ph.D. Program in Economics \textit{(prior to UC Davis)}}{2019--2021}
 \subsubentry{M.A. in Economics}{2017--2019}
-\subsubentry{\textit{Thesis}: ``Effect of Monetary Integration on Purchasing Power Parity in Euro Area"}{}
-\subsubentrylast{B.A. in Economics, \textit{Summa Cum Laude}}{2012--2017}
+\subsubentrylast{\textit{Thesis}: ``Effect of Monetary Integration on Purchasing Power Parity in Euro Area"}{}
+\subsubentry{B.A. in Economics, \textit{Summa Cum Laude}}{2012--2017}
 
 \sechead{Academic Publications}
 \begin{itemize}[leftmargin=*]
@@ -80,22 +82,23 @@
     \pubitem{“China's International Trade and Employment by Sector: Private versus Public.”}{\uline{Journal of The Korean Data Analysis Society},  20(3) (2018), (with Jong Chan Lee and Sang Young Jei)}
 \end{itemize}
 
-\sechead{Working Paper}
+\sechead{Working Papers}
 \begin{itemize}[leftmargin=*]
-    \plainitem{``Financial Sanctions and the Dollar Dominance"}
-    \plainitem{``Which Margin Moves? Promotional Slack and the Pass-Through of a Sugar-Sweetened Beverage Tax" (with \href{https://kiesel.ucdavis.edu/}{Kristin Kiesel} and Yijoong Won)}
+    \plainitem{``Financial Sanctions and Dollar Dominance in Trade Invoicing'' \textbf{(Job Market Paper)}}
+    \plainitem{``Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes'' (with Yijoong Won and \href{https://kiesel.ucdavis.edu/}{Kristin Kiesel})}
+    \plainitem{``Health Monitoring and Household Soda Demand: Evidence from Retail Diabetes-Device Purchases'' (with Yifan Xie)}
 \end{itemize}
 
 \sechead{Work in Progress}
 \begin{itemize}[leftmargin=*]
     \plainitem{``Tariff News and Inflation Expectations" (with \href{https://sites.google.com/ucdavis.edu/hyunseopark/}{Hyunseo Park} and Yungu Cho)}
-    \plainitem{``The Relationship between Crude Oil and the Stock Market in China" (with Sun Ho Lee and Jong Chan Lee)}
     \plainitem{``The Impact of Economic and Monetary Union on Adjustment Speed" (with Sang Young Jei)}
 \end{itemize}
 
 \sechead{Grants, Scholarships, and Awards}
 \begin{itemize}[leftmargin=*]
     \plainitem{Department Travel Awards, UC Davis}
+    \plainitem{Brain Korea 21 Scholarship, Korea University}
     \plainitem{Research Assistant Scholarships, Korea University}
     \plainitem{Teaching Fellow Scholarships, Korea University}
     \plainitem{Best Thesis Awards, Korea University}
