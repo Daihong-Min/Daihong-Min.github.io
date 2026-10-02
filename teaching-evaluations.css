@@ -1,0 +1,15 @@
+/* Keep the score comparison in a dedicated stylesheet for Teaching. */
+#teaching-evaluation-summary .stat-comparison {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #15803d !important;
+}
+html[data-bs-theme="dark"] #teaching-evaluation-summary .stat-comparison,
+html[data-mode="dark"] #teaching-evaluation-summary .stat-comparison,
+body.quarto-dark #teaching-evaluation-summary .stat-comparison {
+  color: #86efac !important;
+}
