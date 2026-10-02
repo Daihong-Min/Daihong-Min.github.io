@@ -19,6 +19,7 @@ format:
 ::: {.eval-stat-box}
 **4.3 / 5.0**
 <span class="stat-label">Overall teaching effectiveness of the teaching assistant</span>
+<span class="stat-comparison">+0.4 points above the Economics department average (3.9 / 5.0)</span>
 :::
 ::: {.eval-stat-box}
 **4.3 / 5.0**
@@ -26,7 +27,7 @@ format:
 :::
 :::
 
-<div class="eval-note">Based on 35 section evaluations across 17 terms at UC Davis. Item responses: n = 380 (teaching effectiveness) and n = 363 (overall performance). For comparison, the Economics department average for overall TA teaching effectiveness is 3.9 / 5.0.</div>
+<div class="eval-note">Based on 35 section evaluations across 17 terms at UC Davis. Item responses: n = 380 (teaching effectiveness) and n = 363 (overall performance).</div>
 
 <a href="teaching-evaluations.pdf" class="btn-eval-download" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> View Teaching Evaluation Summary (PDF)</a>
 
