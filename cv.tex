@@ -5,7 +5,7 @@
 \usepackage{enumitem}
 \setlist[itemize]{topsep=3pt,itemsep=3pt,parsep=0pt,partopsep=0pt}
 \usepackage{titlesec}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{multicol}
 \usepackage{parskip}
@@ -13,7 +13,6 @@
 \usepackage{csquotes}
 \usepackage[normalem]{ulem}
 \usepackage{fontawesome5}
-\usepackage{xcolor}
 \usepackage[dvipsnames]{xcolor}
 
 % Custom section formatting
@@ -47,6 +46,14 @@
 \newcommand{\pubitem}[2]{\item \textit{#1}. #2}
 \newcommand{\plainitem}[1]{\item #1}
 \newcommand{\dateditem}[2]{\item #1\hfill #2}
+
+% Consistent, slightly more open spacing for the five research/awards lists.
+\newenvironment{cvresearchlist}
+  {\begin{itemize}[leftmargin=*,topsep=3pt,itemsep=6pt,parsep=0pt,partopsep=0pt]}
+  {\end{itemize}}
+\newenvironment{cvteachinglist}
+  {\begin{itemize}[leftmargin=*,topsep=3pt,itemsep=2pt,parsep=0pt,partopsep=0pt]\raggedright}
+  {\end{itemize}}
 
 \begin{document}
 
@@ -113,32 +120,32 @@
 
 \sechead{Academic Publications}
 \vspace{-2em}
-\begin{itemize}[leftmargin=*,topsep=0pt,itemsep=0pt]
+\begin{cvresearchlist}
     \pubitem{“Purchasing Power Parity vs. Uncovered Interest Rate Parity for NAFTA Countries: The value of Incorporating Time-Varying Parameter Model.”}{\uline{Economic Modelling}, 90 (2020), (with Jong Cheol Yoon and Sang Young Jei)}
     \pubitem{“Empirical Test of Purchasing Power Parity Using a Time-Varying Cointegration Model for China and the UK.”}{\uline{Physica A: Statistical Mechanics and its Applications}, 521 (2019), (with Jong Cheol Yoon and Sang Young Jei)}
     \pubitem{“Impact of Price Disclosure on Gas Market Pricing: Applying Time-varying Cointegration Models.”}{\uline{Journal of Industrial Economics and Business}, 32(5) (2019), (with Jong Cheol Yoon and Sang Young Jei)}
     \pubitem{“Impacts of China's Trade on Sectoral Employment Rates.”}{\uline{Journal of Industrial Economics and Business},  32(3) (2019), (with Jong Chan Lee and Sang Young Jei)}
     \pubitem{“Analysis of the Estimation of Demand Elasticity for Non-Alcoholic Beverage.”}{\uline{Journal of The Korean Data Analysis Society},  21(1) (2019), (with Won Nyon Kim and Sang Young Jei)}
     \pubitem{“China's International Trade and Employment by Sector: Private versus Public.”}{\uline{Journal of The Korean Data Analysis Society},  20(3) (2018), (with Jong Chan Lee and Sang Young Jei)}
-\end{itemize}
+\end{cvresearchlist}
 
 \sechead{Working Papers}
 \vspace{-2em}
-\begin{itemize}[leftmargin=*]
+\begin{cvresearchlist}
     \plainitem{``Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes'' (with Yijoong Won and \href{https://kiesel.ucdavis.edu/}{Kristin Kiesel})}
     \plainitem{``Does Habitual Demand Survive a Household Health Shock? Evidence from Retail Diabetes-Device Purchases'' (with Yifan Xie)}
-\end{itemize}
+\end{cvresearchlist}
 
 \sechead{Work in Progress}
 \vspace{-2em}
-\begin{itemize}[leftmargin=*]
+\begin{cvresearchlist}
     \plainitem{``Tariff News and Inflation Expectations" (with Hyunseo Park and Yungu Cho)}
     \plainitem{``The Impact of Economic and Monetary Union on Adjustment Speed" (with Sang Young Jei)}
-\end{itemize}
+\end{cvresearchlist}
 
 \sechead{Grants, Scholarships, and Awards}
 \vspace{-2em}
-\begin{itemize}[leftmargin=*]
+\begin{cvresearchlist}
     \dateditem{Department Travel Awards, UC Davis}{2025 SQ, 2026 SQ}
     \dateditem{Innovation Support Project Scholarship, Korea University}{Spring 2019--Fall 2019}
     \dateditem{Best Thesis Awards, Korea University}{Fall 2019}
@@ -147,7 +154,7 @@
     \dateditem{Research Assistant Scholarships, Korea University}{Fall 2017--Fall 2020}
     \dateditem{Teaching Fellow Scholarships, Korea University}{Fall 2017--Fall 2018, Fall 2019}
     \dateditem{Dean's List, Korea University}{Spring 2016, Spring 2017}
-\end{itemize}
+\end{cvresearchlist}
 
 %\sechead{Conference \& Seminar Presentations}
 %\begin{itemize}[leftmargin=*]
@@ -156,46 +163,45 @@
 
 \sechead{Policy Papers}
 \vspace{-2em}
-\begin{itemize}[leftmargin=*]
+\begin{cvresearchlist}
     \pubitem{“Analysis of the Effects of Infrastructure Investment on Economic Growth”}{\uline{National Assembly Budget Office}, (2020), (with Yonghun Jung and Lee, Seong-Hoon)} \href{https://www.nabo.go.kr/Sub/01Report/05_Board.jsp?funcSUB=view&bid=19&arg_cid1=0&arg_cid2=0&arg_class_id=0&currentPage=0&pageSize=10&currentPageSUB=0&pageSizeSUB=10&key_typeSUB=subject&keySUB=%EC%9D%B8%ED%94%84%EB%9D%BC&search_start_dateSUB=&search_end_dateSUB=&department=0&department_sub=0&etc_cate1=&etc_cate2=&sortBy=reg_date&ascOrDesc=desc&search_key1=&etc_1=0&etc_2=0&tag_key=&arg_id=7402&item_id=7402&etc_1=0&etc_2=0&name2=0}{ (Korean)}
     \pubitem{“The Economic Effects of Gyeongbu-Expressway”}{\uline{Korea Expressway Corporation Research Institute}, (2020), (with Yonghun Jung and Lee, Seong-Hoon)} (Korean)
-\end{itemize}
+\end{cvresearchlist}
 
+% Keep the teaching section at the top of a new page.
+\clearpage
+\begingroup
+\setlength{\parskip}{3pt}
 \sechead{Teaching Experience}
 \subentry{Graduate Tutor, UC Davis}{Sep 2026--present}
 \vspace{-1.5em}
-\begin{itemize}[leftmargin=*]
-    \raggedright
-    \plainitem{Intermediate Macro Theory}
-\end{itemize}
+\begin{cvteachinglist}
+    \plainitem{\textbf{Course:} Intermediate Macroeconomic Theory.}
+    % Updated from the instructor's role clarification supplied by the author.
+    % The formal appointment is Tutor; Derek Stimel is Instructor of Record.
+    \plainitem{Hold three hours of drop-in tutoring per week, respond to student questions by email, and offer individual appointments as needed; review lectures or recordings to stay current with course material.}
+\end{cvteachinglist}
+
 \subentry{Teaching Assistant, UC Davis}{Sep 2021--July 2026}
 \vspace{-1.5em}
-\begin{itemize}[leftmargin=*]
-    \raggedright
-    \plainitem{\textbf{Student evaluations}
-    (\href{https://www.daihongmin.com/teaching}{details}):}
-    \begin{itemize}[
-        leftmargin=1.5em,
-        topsep=2pt,
-        itemsep=1pt,
-        parsep=0pt
-    ]
-        \plainitem{Overall TA teaching effectiveness:
-        \textbf{4.3/5} (department average: 3.9/5).}
+\begin{cvteachinglist}
+    \plainitem{\textbf{Courses:} Principles of Microeconomics; Principles of Macroeconomics; Intermediate Microeconomic Theory; Intermediate Macroeconomic Theory; Economics of International Immigration; Public Finance; Financial Economics; Money, Banks, and Financial Institutions.}
+    \plainitem{Led discussions and exam reviews; prepared materials, held office hours, and graded exams.}
+    % Enrollment counts are cumulative section enrollments, not unique students.
+    % Evaluation records omit ECN 100B (Spring 2022).
+    \plainitem{Evaluation records: 35 discussion sections; 1,282 cumulative enrollments across 17 terms.}
+    % The 3.9/5 comparison was reported by UC Davis candidates from the previous
+    % job-market cycle, per the author; it is not in the individual official report.
+    \plainitem{Overall TA teaching effectiveness: \textbf{4.3/5} (380 ratings; reported department average: 3.9/5).}
+\end{cvteachinglist}
 
-        \plainitem{Overall, the TA did a good job in this course:
-        \textbf{4.3/5}.}
-    \end{itemize}
-    
-    \plainitem{The Principle of Microeconomics, The Principle of Macroeconomics, Intermediate Micro Theory, Intermediate Macro Theory, Economics of International Immigration, Public Finance, Financial Economics, Money, Banks, \& Financial Institutions}
-    
-\end{itemize}
 \subentry{Teaching Assistant, Korea University}{Sep 2017--Aug 2021}
 \vspace{-1.5em}
-\begin{itemize}[leftmargin=*]
-    \raggedright
-    \plainitem{Mathematics for Economics \& Business, Statistics for Economists, Theory and Practice of Public Finance, Econometrics, Taxation and National Economy, Introduction to Financial Times Series Data Analysis, Introduction to Economic Fluctuations}
-\end{itemize}
+\begin{cvteachinglist}
+    \plainitem{\textbf{Courses:} Mathematics for Economics \& Business; Statistics for Economists; Theory and Practice of Public Finance; Econometrics; Taxation and National Economy; Introduction to Financial Time Series Data Analysis; Introduction to Economic Fluctuations.}
+    \plainitem{Held office hours, graded exams, and participated in lectures; led coding sessions for Introduction to Financial Time Series Data Analysis.}
+\end{cvteachinglist}
+\endgroup
 
 \sechead{Working Paper Abstracts}
 \textbf{Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes}\par
@@ -209,7 +215,7 @@
 \textit{Presentations:} UC Davis Theory/Behavior Seminar (2025).}\par
 }
 
-\vspace{2.5em}
+\vspace{0.5em}
 
 \textbf{Does Habitual Demand Survive a Household Health Shock? Evidence from Retail Diabetes-Device Purchases} {\small (with Yifan Xie)\par}
 \vspace{2pt}
