@@ -1,0 +1,68 @@
+/* The approved Home palette is shared by every page. */
+:root {
+  --text-main: #243b53;
+  --text-muted: #526477;
+  --title-color: #243b53;
+  --accent-blue: #203d5b;
+  --accent-blue-hover: #315576;
+  --accent-green: var(--accent-blue);
+  --accent-green-hover: var(--accent-blue-hover);
+  --badge-bg: #edf2f6;
+  --badge-text: #203d5b;
+  --action-on-accent: #ffffff;
+  --site-navbar-bg: #f7f8fa;
+  --bs-primary: #203d5b;
+  --bs-primary-rgb: 32, 61, 91;
+  --bs-link-color: #203d5b;
+  --bs-link-color-rgb: 32, 61, 91;
+  --bs-link-hover-color: #315576;
+  --bs-link-hover-color-rgb: 49, 85, 118;
+}
+html[data-bs-theme="dark"],
+html[data-mode="dark"],
+body.quarto-dark {
+  --text-main: #e4eaf1;
+  --text-muted: #bac5d1;
+  --title-color: #e4eaf1;
+  --accent-blue: #9ac8ef;
+  --accent-blue-hover: #b5d9f6;
+  --accent-green: var(--accent-blue);
+  --accent-green-hover: var(--accent-blue-hover);
+  --badge-bg: #22364a;
+  --badge-text: #9ac8ef;
+  --action-on-accent: #102337;
+  --site-navbar-bg: #252a30;
+  --bs-primary: #9ac8ef;
+  --bs-primary-rgb: 154, 200, 239;
+  --bs-link-color: #9ac8ef;
+  --bs-link-color-rgb: 154, 200, 239;
+  --bs-link-hover-color: #b5d9f6;
+  --bs-link-hover-color-rgb: 181, 217, 246;
+}
+.navbar { background-color: var(--site-navbar-bg) !important; }
+.btn-cv-download,
+.btn-eval-download {
+  background-color: var(--accent-blue);
+  color: var(--action-on-accent) !important;
+}
+.btn-cv-download:hover,
+.btn-eval-download:hover { background-color: var(--accent-blue-hover); }
+.btn-paper:hover,
+.btn-paper:focus-visible,
+.btn-paper:hover i,
+.btn-paper:focus-visible i {
+  background-color: var(--accent-blue) !important;
+  color: var(--action-on-accent) !important;
+}
+.ref-chair,
+#TOC a.active,
+#TOC a:hover {
+  color: var(--accent-blue) !important;
+  border-color: var(--accent-blue) !important;
+}
+#teaching-evaluation-summary .stat-comparison,
+html[data-bs-theme="dark"] #teaching-evaluation-summary .stat-comparison,
+html[data-mode="dark"] #teaching-evaluation-summary .stat-comparison,
+body.quarto-dark #teaching-evaluation-summary .stat-comparison {
+  color: var(--accent-blue) !important;
+}

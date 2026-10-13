@@ -1,29 +1,4 @@
-/* Approved job market header: primary resources, navy palette, and full address. */
-:root {
-  --text-main: #243b53;
-  --text-muted: #526477;
-  --title-color: #243b53;
-  --accent-blue: #203d5b;
-  --accent-blue-hover: #315576;
-  --badge-bg: #edf2f6;
-  --badge-text: #203d5b;
-  --action-on-accent: #ffffff;
-  --profile-navbar-bg: #f7f8fa;
-}
-html[data-bs-theme="dark"],
-html[data-mode="dark"],
-body.quarto-dark {
-  --text-main: #e4eaf1;
-  --text-muted: #bac5d1;
-  --title-color: #e4eaf1;
-  --accent-blue: #9ac8ef;
-  --accent-blue-hover: #b5d9f6;
-  --badge-bg: #22364a;
-  --badge-text: #9ac8ef;
-  --action-on-accent: #102337;
-  --profile-navbar-bg: #252a30;
-}
-.navbar { background-color: var(--profile-navbar-bg) !important; }
+/* Homepage job-market header layout; colors are in site-theme.css. */
 .profile-market { margin-bottom: 20px; }
 .profile-market-status {
   margin: 0 0 10px;

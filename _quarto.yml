@@ -6,14 +6,16 @@ project:
     - teaching-evaluations.pdf
     - favicon-dm.png
     - favicon-dm.ico
+    - favicon.ico
     - footer-layout.css
+    - site-theme.css
 
 website:
   title: "Daihong Min"
   site-url: "https://www.daihongmin.com"
   google-analytics: "G-GGF1CFL098"
   description: "Daihong Min is a Ph.D. candidate in Economics at UC Davis working on international economics, macroeconomics, and geoeconomics."
-  favicon: favicon-dm.svg
+  favicon: favicon-dm.png
   open-graph: true
   twitter-card:
     card-style: summary
