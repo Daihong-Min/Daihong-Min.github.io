@@ -22,8 +22,7 @@ website:
   image: profile.jpg
   search: false
   page-footer:
-    left: "© 2026 Daihong Min"
-    right: "Last updated October 2026"
+    center: "© 2026 Daihong Min · Last updated October 2026"
     border: false
   navbar:
     background: light
