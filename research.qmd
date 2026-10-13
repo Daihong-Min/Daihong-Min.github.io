@@ -8,6 +8,7 @@ format:
       - styles.css
       - site-layout.css
       - research-layout.css
+      - research-reading.css
     grid:
       body-width: 900px
       margin-width: 250px
@@ -22,9 +23,14 @@ format:
 
 <div class="jmp-takeaway">Sanctions can shift trade invoicing away from the dollar by making dollar-linked working capital credit less reliable.</div>
 
+<details class="abstract-toggle research-abstract-toggle">
+<summary>Abstract</summary>
+
 ::: {.paper-abstract}
 The U.S. dollar is the most widely used currency in international trade and finance. This position allows the United States to pressure foreign firms and governments by restricting access to the dollar financial system. Does the use of this power through financial sanctions weaken the dollar's role in trade invoicing? I find that the increase in U.S. financial sanctions against Chinese entities is associated with relatively higher renminbi invoicing shares and lower dollar invoicing shares in countries with a greater share of imports from China. The relationship between import share from China and the renminbi invoicing share is weaker among countries whose imports from China are concentrated in goods that require little working capital. To explain these patterns, I develop a model in which exporters exposed to the risk of sanctions choose whether to invoice their goods in their domestic currency or in dollars. In addition to exchange-rate risk and borrowing costs, firms consider how their invoicing currency affects the amount of credit available to finance working capital. The risk that sanctions restrict dollar-linked credit can induce a currency switch, even when borrowing rates remain unchanged. Firms switch to domestic-currency invoicing when the expected loss from restricted credit is greater than the financing and hedging benefits of dollar invoicing. Differences in working capital needs and the share of intermediate inputs priced in dollars can lead firms facing the same sanctions risk to choose different invoicing currencies. These findings identify a potential cost of using the dollar as a policy instrument: financial sanctions can make the dollar less attractive as an invoicing currency by undermining the reliability of trade finance.
 :::
+
+</details>
 
 ::: {.paper-presentations}
 **Presentations:** Southern Economic Association (2026, scheduled); Western Economic Association International Annual Conference (2026); UC Davis Macro/International Seminar (2025, 2026).
@@ -38,9 +44,14 @@ The U.S. dollar is the most widely used currency in international trade and fina
 
 *with Yijoong Won and Kristin Kiesel*
 
+<details class="abstract-toggle research-abstract-toggle">
+<summary>Abstract</summary>
+
 ::: {.paper-abstract}
 The effective price a consumer pays at a store combines a regular price with temporary promotions. A tax can raise the regular price, cut the frequency of discounts, or both. This paper asks how retailers strategically respond to sugar-sweetened beverage (SSB) taxes implemented locally and distinguished between these two. We develop a simple conceptual model that makes the regular price costly, while changes to promotions are relatively cheaper, but bounded by pre-tax promotional patterns. We then study retailer pricing behavior after the introduction of the 2018 San Francisco sugar-sweetened beverage tax using NielsenIQ scanner data. Utilizing a local projection difference-in-differences approach, we detect an average pass-through of 73 percent. However, low-promotional slack groups, grocery stores and soft drinks, move the regular price and high-promotional slack group, discount stores, cut promotions and hold the regular price nearly flat. Because incidence can run through promotions that the effective price miss, the distributional reading of these taxes depends on which margin moves.
 :::
+
+</details>
 
 ::: {.paper-presentations}
 **Presentation:** UC Davis Theory/Behavior Seminar (2025).
@@ -52,9 +63,14 @@ The effective price a consumer pays at a store combines a regular price with tem
 
 *with Yifan Xie*
 
+<details class="abstract-toggle research-abstract-toggle">
+<summary>Abstract</summary>
+
 ::: {.paper-abstract}
 Soft-drink purchases are highly persistent, and macroeconomic models use habit formation in individual goods to explain sluggish demand and incomplete price pass-through. Evidence for this mechanism largely comes from responses to price, tax, and income shocks, which may also reflect slow price adjustment or delayed awareness. We examine whether this persistence extends to a household-specific health event. Using Nielsen scanner data linked to survey-reported diagnoses, we identify retail monitoring onset from households’ first observed purchases of glucose meters or test strips. Local projection difference-in-differences estimates compare these households with those recording neither a monitoring purchase nor a diabetes diagnosis. Regular soda purchases decline within two quarters and remain lower for two years. The average reduction is 70.5 ounces per household per quarter, approximately 11 percent of purchases before onset. The decline in regular soda’s share is accompanied by a corresponding increase in diet soda’s share. Among households whose monitoring purchases precede the reported diagnosis year, the decline begins in the purchase quarter. The adjustment is concentrated in the first two quarters, while roughly 90 percent of baseline purchases remain. These findings suggest that households respond promptly to the onset of retail monitoring but make limited changes to an otherwise persistent purchasing pattern.
 :::
+
+</details>
 :::
 
 ## Work in Progress

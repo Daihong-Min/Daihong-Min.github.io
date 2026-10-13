@@ -1,0 +1,42 @@
+/* Keep the main finding visible while letting readers open each full abstract. */
+#job-market-paper .jmp-takeaway {
+  background-color: var(--badge-bg);
+  border-left: 4px solid var(--accent-blue) !important;
+  border-radius: 0 6px 6px 0;
+  padding: 16px 20px;
+}
+details.research-abstract-toggle {
+  margin-top: 16px;
+}
+details.research-abstract-toggle > summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  color: var(--accent-blue) !important;
+}
+details.research-abstract-toggle > summary:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+details.research-abstract-toggle > summary::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  margin-right: 12px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(45deg);
+}
+details.research-abstract-toggle[open] > summary::before {
+  transform: rotate(135deg);
+}
+details.research-abstract-toggle[open] > summary {
+  margin-bottom: 8px;
+}
+details.research-abstract-toggle .paper-abstract p:last-child {
+  margin-bottom: 0;
+}
