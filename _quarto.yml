@@ -36,7 +36,7 @@ website:
   search: false
   page-footer:
     # Deployment replaces this signature with the month of the latest docs change.
-    center: "© 2026 Daihong Min · Last updated October 2026"
+    center: '© 2026 Daihong Min · <span lang="ko">민대홍</span> · Last updated October 2026'
     border: false
   navbar:
     background: light

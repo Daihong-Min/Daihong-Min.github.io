@@ -20,7 +20,7 @@ def update_footers(site_dir: Path, updated_at: str) -> int:
     if timestamp.tzinfo is None:
         raise ValueError("The site update timestamp must include a timezone.")
     updated = timestamp.astimezone(ZoneInfo("America/Los_Angeles"))
-    signature = f"© {updated.year} Daihong Min · Last updated {updated:%B %Y}"
+    signature = f'© {updated.year} Daihong Min · <span lang="ko">민대홍</span> · Last updated {updated:%B %Y}'
     pages = []
     for path in sorted(site_dir.rglob("*.html")):
         content = path.read_bytes().decode("utf-8")

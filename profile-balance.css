@@ -26,11 +26,6 @@
   margin: 0 !important;
   white-space: nowrap;
 }
-.profile-text-box h1 .profile-pronunciation [lang="ko"] {
-  display: inline;
-  font-size: inherit;
-  margin: 0;
-}
 .profile-text-box .profile-role {
   font-size: 1.18rem;
   font-weight: 600;

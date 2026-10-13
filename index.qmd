@@ -61,7 +61,7 @@ format:
 :::
 
 ::: {.profile-text-box}
-# Daihong Min <span class="profile-pronunciation">(<span lang="ko">민대홍</span> · pronounced *day-hong min*)</span> {#daihong-min-pronounced-day-hong-min}
+# Daihong Min <span class="profile-pronunciation">(pronounced *day-hong min*)</span> {#daihong-min-pronounced-day-hong-min}
 
 <p class="profile-role">Ph.D. Candidate in Economics</p>
 University of California, Davis
