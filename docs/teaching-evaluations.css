@@ -16,11 +16,12 @@
 .evaluation-questions { margin: 12px 0 18px; font-size: 0.9rem; }
 .evaluation-questions summary { padding: 8px 0; font-family: var(--font-ui); color: var(--accent-blue); }
 .evaluation-questions p { margin: 10px 0; }
-.teach-row { gap: 18px; padding: 16px 0; }
+.teach-row { gap: 18px; padding: 16px 18px; }
 .teach-details .teach-course-title { font-size: 1.1rem; margin: 0 0 5px; }
 .teach-details .teach-role { font-size: 0.8rem; margin: 0; color: var(--text-muted); }
 .teach-terms { flex: 0 1 44%; color: var(--text-muted); font-family: var(--font-ui); font-size: 0.8rem; line-height: 1.75; margin: 0; text-align: right; }
 @media (max-width: 768px) {
+  .teach-row { padding-inline: 14px; }
   .eval-stats-container { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
   .eval-stat-box { min-width: 0; }
   .eval-stat-box strong { font-size: 1.45rem; }
