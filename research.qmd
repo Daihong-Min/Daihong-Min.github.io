@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description-meta: "Research by Daihong Min on financial sanctions, trade invoicing, dollar dominance, retail pricing, and household demand. Job market paper and working papers."
 page-layout: article
 toc-depth: 2
 format:
@@ -33,7 +34,7 @@ The U.S. dollar is the most widely used currency in international trade and fina
 </details>
 
 ::: {.paper-presentations}
-**Presentations:** Southern Economic Association (2026, scheduled); Western Economic Association International Annual Conference (2026); UC Davis Macro/International Seminar (2025, 2026).
+**Presentations:** Southern Economic Association — 2026 (scheduled); Western Economic Association International Annual Conference — 2026; UC Davis Macro/International Seminar — 2025, 2026.
 :::
 :::
 
@@ -43,6 +44,8 @@ The U.S. dollar is the most widely used currency in international trade and fina
 ### Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes {.no-anchor}
 
 *with Yijoong Won and Kristin Kiesel*
+
+<div class="paper-takeaway">Retailers adjust regular prices or promotions after an SSB tax, depending on pre-tax promotional slack.</div>
 
 <details class="abstract-toggle research-abstract-toggle">
 <summary>Abstract</summary>
@@ -54,7 +57,7 @@ The effective price a consumer pays at a store combines a regular price with tem
 </details>
 
 ::: {.paper-presentations}
-**Presentation:** UC Davis Theory/Behavior Seminar (2025).
+**Presentation:** UC Davis Theory/Behavior Seminar — 2025.
 :::
 :::
 
@@ -62,6 +65,8 @@ The effective price a consumer pays at a store combines a regular price with tem
 ### Does Habitual Demand Survive a Household Health Shock? Evidence from Retail Diabetes-Device Purchases {.no-anchor}
 
 *with Yifan Xie*
+
+<div class="paper-takeaway">Regular soda purchases fall soon after diabetes-monitoring purchases, then show little further adjustment.</div>
 
 <details class="abstract-toggle research-abstract-toggle">
 <summary>Abstract</summary>

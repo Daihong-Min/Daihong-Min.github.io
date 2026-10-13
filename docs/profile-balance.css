@@ -26,8 +26,9 @@
   margin: 0 !important;
   white-space: nowrap;
 }
-.profile-text-box h3 {
+.profile-text-box .profile-role {
   font-size: 1.18rem;
+  font-weight: 600;
   line-height: 1.4;
   margin: 0 0 6px;
 }
@@ -41,5 +42,5 @@
     align-items: center;
     font-size: 1.7rem;
   }
-  .profile-text-box h3 { font-size: 1.08rem; }
+  .profile-text-box .profile-role { font-size: 1.08rem; }
 }

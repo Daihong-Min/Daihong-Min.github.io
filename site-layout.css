@@ -11,6 +11,18 @@
 .quarto-color-scheme-toggle { width: 76px !important; }
 .quarto-color-scheme-toggle::after { font-size: 0.875rem; }
 
+/* Shared content rhythm; the signature keeps its existing size. */
+main h2 { font-size: 1.55rem !important; margin-top: 2.25rem; }
+main > section:first-of-type > h2 { margin-top: 1.5rem; }
+main h3 { line-height: 1.4; }
+a:focus-visible, summary:focus-visible, button:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 4px;
+}
+@media (pointer: coarse) {
+  .profile-action, .btn-cv-download, .btn-eval-download { min-height: 44px; }
+}
+
 @media (max-width: 768px) {
   .navbar-brand { font-size: 1.2rem !important; }
   .navbar-nav .nav-link { font-size: 1rem !important; margin-left: 0; }

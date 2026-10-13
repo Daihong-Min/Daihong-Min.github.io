@@ -43,6 +43,8 @@
   margin-top: 16px;
 }
 
+.paper-takeaway { margin: 12px 0 16px; line-height: 1.65; color: var(--text-main); }
+
 @media (max-width: 768px) {
   .paper-item.paper-item-compact h3 {
     font-size: 1.05rem;

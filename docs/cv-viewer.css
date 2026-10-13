@@ -1,0 +1,8 @@
+.cv-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.cv-updated { color: var(--text-muted); font-family: var(--font-ui); font-size: 0.85rem; margin: 14px 0 20px; }
+.cv-preview { margin: 18px 0 24px; }
+.cv-preview > summary { color: var(--accent-blue); font-family: var(--font-ui); font-weight: 500; padding: 10px 0; }
+.cv-preview-pages { margin-top: 14px; }
+.cv-preview-pages a { display: block; margin-bottom: 20px; }
+.cv-preview-pages img { display: block; width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 3px; }
+.cv-open-pdf { color: var(--accent-blue); font-family: var(--font-ui); font-size: 0.85rem; }

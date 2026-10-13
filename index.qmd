@@ -1,5 +1,8 @@
 ---
 title: ""
+pagetitle: "Daihong Min | Economics Ph.D. Candidate, UC Davis"
+description-meta: "Economics Ph.D. candidate at UC Davis on the 2026–2027 job market. Research in international economics, macroeconomics, and geoeconomics; undergraduate teaching experience."
+image: profile-website-780.jpg
 page-layout: article
 toc: false
 toc-location: right
@@ -18,23 +21,13 @@ format:
 
 ::: {.profile-container}
 ::: {.profile-image-box}
-<img src="profile-website.png" class="profile-img" alt="Portrait of Daihong Min" width="1122" height="1402" fetchpriority="high" decoding="async">
+<img src="profile-website-780.jpg" srcset="profile-website-520.jpg 520w, profile-website-780.jpg 780w" sizes="(max-width: 768px) 192px, 260px" class="profile-img" alt="Portrait of Daihong Min" width="1122" height="1402" fetchpriority="high" decoding="async">
 :::
 
 ::: {.profile-text-box}
 # Daihong Min <span class="profile-pronunciation">(pronounced *day-hong min*)</span>
 
-```{=html}
-<div class="profile-market">
-  <p class="profile-market-status">2026–2027 Academic Job Market</p>
-  <div class="profile-actions" aria-label="Job market resources">
-    <a class="profile-action profile-action-primary" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
-    <a class="profile-action" href="research.qmd#job-market-paper">Job Market Paper</a>
-  </div>
-</div>
-```
-
-### Ph.D. Candidate in Economics
+<p class="profile-role">Ph.D. Candidate in Economics</p>
 University of California, Davis
 
 ```{=html}
@@ -44,13 +37,21 @@ University of California, Davis
   <span>Geoeconomics</span>
 </div>
 
+<div class="profile-market">
+  <p class="profile-market-status">2026–2027 Academic Job Market</p>
+  <div class="profile-actions" aria-label="Job market resources">
+    <a class="profile-action profile-action-primary" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    <a class="profile-action" href="research.qmd#job-market-paper">Job Market Paper</a>
+  </div>
+</div>
+
 <div class="profile-contact">
   <a class="profile-email" href="mailto:dhmin@ucdavis.edu"><i class="bi bi-envelope" aria-hidden="true"></i> <span>dhmin [at] ucdavis.edu</span></a>
   <span class="profile-full-address"><i class="bi bi-geo-alt" aria-hidden="true"></i> <span>134 Social Sciences &amp; Humanities Building, 1 Shields Ave, Davis, CA 95616</span></span>
 </div>
 
 <div class="profile-social-links">
-  <a href="https://scholar.google.co.kr/citations?user=9xPqwXAAAAAJ&hl=en" target="_blank" rel="noopener"><i class="bi bi-mortarboard" aria-hidden="true"></i> Google Scholar</a>
+  <a href="https://scholar.google.com/citations?user=9xPqwXAAAAAJ&hl=en" target="_blank" rel="noopener"><i class="bi bi-mortarboard" aria-hidden="true"></i> Google Scholar</a>
   <a href="https://www.linkedin.com/in/daihongmin" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn</a>
 </div>
 ```
@@ -61,8 +62,8 @@ University of California, Davis
 
 ## Biography
 
-I am a Ph.D candidate in economics at the University of California, Davis, and **I am on the 2026-2027 academic job market.** My research focuses on international economics, macroeconomics, and geoeconomics.
+I am a Ph.D. candidate in economics at the University of California, Davis, and **I am on the 2026-2027 academic job market.** My research focuses on international economics, macroeconomics, and geoeconomics.
 
-My job market paper examines the relationship between U.S. financial sanctions and currency choice in international trade. Combining empirical evidence with a model of firms' invoicing decision, I study how the risk of losing access to dollar-linked credit can encourage firms to switch invoicing currencies.
+My job market paper examines the relationship between U.S. financial sanctions and currency choice in international trade. Combining empirical evidence with a model of firms' invoicing decisions, I study how the risk of losing access to dollar-linked credit can encourage firms to switch invoicing currencies.
 
 I also use retail scanner and household purchase data to study how firms and consumers respond to taxes and health risks, with an interest in the implications for demand persistence and pricing behavior.

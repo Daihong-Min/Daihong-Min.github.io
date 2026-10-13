@@ -1,4 +1,5 @@
 ---
+description-meta: "About Daihong Min, economics Ph.D. candidate at the University of California, Davis."
 title: "About"
 ---
 

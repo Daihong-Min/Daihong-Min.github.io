@@ -1,14 +1,27 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
   resources:
     - CNAME
+    - robots.txt
+    - favicon-dm.svg
     - teaching-evaluations.pdf
     - favicon-dm.png
     - favicon-dm.ico
     - favicon.ico
     - footer-layout.css
     - site-theme.css
+    - site-events.js
+    - profile-website-520.jpg
+    - profile-website-780.jpg
+    - profile-website.png
+    - profile.jpg
+    - home/**
+    - research/**
+    - teaching/**
+    - cv/**
 
 website:
   title: "Daihong Min"
@@ -19,7 +32,7 @@ website:
   open-graph: true
   twitter-card:
     card-style: summary
-  image: profile.jpg
+  image: profile-website-780.jpg
   search: false
   page-footer:
     # Deployment replaces this signature with the month of the latest docs change.
@@ -31,12 +44,12 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: cv.qmd
-        text: CV
       - href: research.qmd
         text: Research
       - href: teaching.qmd
         text: Teaching
+      - href: cv.qmd
+        text: CV
 
 format:
   html:
@@ -47,4 +60,5 @@ format:
     css:
       - styles.css
       - site-layout.css
+      - cv-viewer.css
     toc: true

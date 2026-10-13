@@ -7,6 +7,7 @@ on:
       - 'docs/**'
       - '.github/workflows/deploy-site.yml'
       - 'scripts/update_footer.py'
+      - 'scripts/render_cv_preview.py'
   workflow_run:
     workflows: [Build CV]
     types: [completed]
@@ -47,7 +48,15 @@ jobs:
           test -s docs/cv.pdf
           test "$(cat docs/CNAME)" = 'www.daihongmin.com'
 
-      - name: Set the footer to the latest website update month
+      - name: Render the current CV preview
+        run: |
+          if ! command -v pdftoppm >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y poppler-utils
+          fi
+          python3 scripts/render_cv_preview.py
+
+      - name: Prepare page metadata and update dates
         run: python3 scripts/update_footer.py
 
       - name: Upload the website

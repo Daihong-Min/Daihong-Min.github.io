@@ -10,9 +10,9 @@ After editing `main.tex`, recompile and review the PDF. Open **Integrations → 
 1. The private `Daihong-Min/CV` repository receives the approved `main.tex`.
 2. Its **Publish CV to website** workflow copies that file to this repository's `cv.tex` and pushes a commit using a repository-specific SSH deploy key.
 3. **Build CV** compiles the source and commits identical PDFs to `cv.pdf` and `docs/cv.pdf`.
-4. On successful completion, **Deploy website** publishes `docs/` to GitHub Pages. This explicit step also handles PDF commits made with `GITHUB_TOKEN`, which do not trigger another push workflow.
+4. On successful completion, **Deploy website** renders preview images from the current PDF, stamps the document update month, and publishes `docs/` to GitHub Pages. This explicit step also handles PDF commits made with `GITHUB_TOKEN`, which do not trigger another push workflow.
 
-The published URL remains https://www.daihongmin.com/cv.pdf. Homepage download links and the CV page preview use this same file. The prose in `cv.qmd` is maintained separately.
+The published URL remains https://www.daihongmin.com/cv.pdf. Homepage download links use this file, and the CV page preview is generated from it during every deployment. The page's document date follows the latest PDF commit, independently of the website footer date. The prose in `cv.qmd` is maintained separately.
 
 ## Status and recovery
 
