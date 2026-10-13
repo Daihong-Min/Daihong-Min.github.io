@@ -6,6 +6,7 @@ on:
     paths:
       - 'docs/**'
       - '.github/workflows/deploy-site.yml'
+      - 'scripts/update_footer.py'
   workflow_run:
     workflows: [Build CV]
     types: [completed]
@@ -36,6 +37,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: main
+          fetch-depth: 0
           persist-credentials: false
 
       - name: Check the site artifact
@@ -44,6 +46,9 @@ jobs:
           test -s docs/cv.html
           test -s docs/cv.pdf
           test "$(cat docs/CNAME)" = 'www.daihongmin.com'
+
+      - name: Set the footer to the latest website update month
+        run: python3 scripts/update_footer.py
 
       - name: Upload the website
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
