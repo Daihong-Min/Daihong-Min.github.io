@@ -62,7 +62,7 @@ def main() -> None:
         else:
             content = content.replace("</head>", tag + "\n</head>", 1)
         if page.name == "index.html":
-            content = re.sub(r"<title>.*?</title>", "<title>Daihong Min | Economics Ph.D. Candidate, UC Davis</title>", content)
+            content = re.sub(r"<title>.*?</title>", "<title>Daihong Min (민대홍) | Economics Ph.D. Candidate, UC Davis</title>", content)
         # Shared palette and signature styles must follow page-specific rules.
         shared_styles = re.findall(r'<link\b[^>]*href="(?:\./)?(?:footer-layout|site-theme)\.css[^\"]*"[^>]*>', content)
         for style in shared_styles:
