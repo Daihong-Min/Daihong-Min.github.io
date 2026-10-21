@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DM">
   <title>Daihong Min</title>
-  <rect width="64" height="64" rx="10" fill="#000000"/>
-  <text x="32" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#ffffff">DM</text>
+  <circle cx="32" cy="32" r="32" fill="#000000"/>
+  <path fill="#ffffff" transform="translate(5.537109 44.168945) scale(0.016601562 -0.016601562)" d="M148 1466H689Q872 1466 968 1438Q1097 1400 1189.0 1303.0Q1281 1206 1329.0 1065.5Q1377 925 1377 719Q1377 538 1332 407Q1277 247 1175 148Q1098 73 967 31Q869 0 705 0H148ZM444 1218V247H665Q789 247 844 261Q916 279 963.5 322.0Q1011 365 1041.0 463.5Q1071 562 1071 732Q1071 902 1041.0 993.0Q1011 1084 957.0 1135.0Q903 1186 820 1204Q758 1218 577 1218ZM1624 0V1466H2067L2333 466L2596 1466H3040V0H2765V1154L2474 0H2189L1899 1154V0Z"/>
 </svg>
