@@ -60,7 +60,7 @@ format:
 ```{=html}
 <picture class="profile-picture">
   <source media="(max-width: 768px)" srcset="profile-2026-10-20-560.jpg 560w, profile-2026-10-20-840.jpg 840w" sizes="192px" width="1254" height="1254">
-  <img src="profile-long-2026-10-20-840.jpg" srcset="profile-long-2026-10-20-600.jpg 600w, profile-long-2026-10-20-840.jpg 840w" sizes="280px" class="profile-img" alt="Portrait of Daihong Min (민대홍)" width="1086" height="1448" fetchpriority="high" decoding="async">
+  <img src="profile-long-2026-10-20-840.jpg" srcset="profile-long-2026-10-20-600.jpg 600w, profile-long-2026-10-20-840.jpg 840w" sizes="304px" class="profile-img" alt="Portrait of Daihong Min (민대홍)" width="1086" height="1448" fetchpriority="high" decoding="async">
 </picture>
 ```
 :::
@@ -88,7 +88,7 @@ University of California, Davis
 
 <div class="profile-contact">
   <a class="profile-email" href="mailto:dhmin@ucdavis.edu"><i class="bi bi-envelope" aria-hidden="true"></i> <span>dhmin [at] ucdavis.edu</span></a>
-  <span class="profile-full-address"><i class="bi bi-geo-alt" aria-hidden="true"></i> <span>134 Social Sciences &amp; Humanities Building, 1 Shields Ave, Davis, CA 95616</span></span>
+  <span class="profile-full-address"><i class="bi bi-geo-alt" aria-hidden="true"></i> <span>143 Social Sciences &amp; Humanities Building, 1 Shields Ave, <span class="text-nowrap">Davis, CA 95616</span></span></span>
 </div>
 
 <div class="profile-social-links">
