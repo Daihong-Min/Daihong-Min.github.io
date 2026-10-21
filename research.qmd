@@ -84,7 +84,7 @@ Soft-drink purchases are highly persistent, and macroeconomic models use habit f
 
 * **The Impact of Economic and Monetary Union on Adjustment Speed** <span class="wip-coauthors">with Sang Young Jei</span>
 
-* **Diplomatic Partnerships and the Political Sensitivity of Chinese Outbound Investment** <span class="wip-coauthors">with Nina Yang</span>
+* **Diplomatic Partnerships and the Political Sensitivity of Chinese Outbound Investment** <span class="wip-coauthors text-nowrap">with Nina Yang</span>
 
 ## Publications
 
