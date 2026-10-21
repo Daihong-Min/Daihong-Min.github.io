@@ -1,4 +1,4 @@
-/* Balance the square portrait with the name and compact profile details. */
+/* Use a tall desktop portrait and a compact square portrait on phones. */
 .profile-container {
   align-items: flex-start;
   gap: 32px;
@@ -6,7 +6,8 @@
   margin-bottom: 24px;
 }
 .profile-image-box { flex-basis: 280px; }
-.profile-img { max-width: 280px; aspect-ratio: 1; }
+.profile-picture { display: block; }
+.profile-img { max-width: 280px; aspect-ratio: 3 / 4; }
 .profile-text-box h1 {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +37,7 @@
 @media (max-width: 768px) {
   .profile-container { align-items: center; gap: 20px; margin-top: 12px; }
   .profile-image-box { flex-basis: auto; width: min(192px, 100%); }
-  .profile-img { max-width: 192px; }
+  .profile-img { max-width: 192px; aspect-ratio: 1; }
   .profile-text-box h1 {
     flex-direction: column;
     align-items: center;

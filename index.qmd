@@ -57,7 +57,12 @@ format:
 
 ::: {.profile-container}
 ::: {.profile-image-box}
-<img src="profile-2026-10-20-840.jpg" srcset="profile-2026-10-20-560.jpg 560w, profile-2026-10-20-840.jpg 840w" sizes="(max-width: 768px) 192px, 280px" class="profile-img" alt="Portrait of Daihong Min (민대홍)" width="1254" height="1254" fetchpriority="high" decoding="async">
+```{=html}
+<picture class="profile-picture">
+  <source media="(max-width: 768px)" srcset="profile-2026-10-20-560.jpg 560w, profile-2026-10-20-840.jpg 840w" sizes="192px" width="1254" height="1254">
+  <img src="profile-long-2026-10-20-840.jpg" srcset="profile-long-2026-10-20-600.jpg 600w, profile-long-2026-10-20-840.jpg 840w" sizes="280px" class="profile-img" alt="Portrait of Daihong Min (민대홍)" width="1086" height="1448" fetchpriority="high" decoding="async">
+</picture>
+```
 :::
 
 ::: {.profile-text-box}
