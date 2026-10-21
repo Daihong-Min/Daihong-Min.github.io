@@ -1,6 +1,6 @@
 ---
 title: "Teaching Experience"
-description-meta: "Teaching assistant experience and student evaluation summary for Daihong Min at UC Davis and Korea University, covering introductory and upper-division economics."
+description-meta: "Graduate tutoring, teaching assistant experience, and student evaluation summary for Daihong Min at UC Davis and Korea University, covering introductory and upper-division economics."
 page-layout: article
 toc: true
 toc-depth: 2
@@ -15,7 +15,7 @@ format:
       margin-width: 250px
 ---
 
-My teaching assistant experience spans introductory and upper-division economics at the University of California, Davis, and Korea University.
+My teaching experience spans introductory and upper-division economics at the University of California, Davis, and Korea University.
 
 ## Teaching Evaluation Summary
 <div class="eval-date">UC Davis · Updated September 2026</div>
@@ -42,6 +42,14 @@ My teaching assistant experience spans introductory and upper-division economics
 </details>
 
 <a href="teaching-evaluations.pdf" class="btn-eval-download" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> View Teaching Evaluation Summary (PDF)</a>
+
+## Graduate Tutor — UC Davis {#graduate-tutor-uc-davis}
+
+```{=html}
+<div class="teaching-grid" aria-label="Graduate Tutor experience at UC Davis">
+<div class="teach-row"><div class="teach-details"><h3 id="graduate-tutor-intermediate-macro-theory" class="teach-course-title">Intermediate Macro Theory</h3><p class="teach-role">ECN 101 · Graduate Tutor</p></div><p class="teach-terms">Fall 2026</p></div>
+</div>
+```
 
 ## Teaching Assistant — UC Davis {#teaching-assistantships-uc-davis}
 
