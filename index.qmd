@@ -82,7 +82,7 @@ University of California, Davis
   <p class="profile-market-status">2026–2027 Academic Job Market</p>
   <div class="profile-actions" aria-label="Job market resources">
     <a class="profile-action profile-action-primary" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
-    <a class="profile-action" href="research.qmd#job-market-paper">Job Market Paper</a>
+    <a class="profile-action" href="jmp.pdf" target="_blank" rel="noopener">Job Market Paper</a>
   </div>
 </div>
 
