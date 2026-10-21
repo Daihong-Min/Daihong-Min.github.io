@@ -160,7 +160,7 @@ with Jong Chan Lee and Sang Young Jei\
 ### Analysis of the Effects of Infrastructure Investment on Economic Growth
 
 ::: {.paper-meta}
-with Yonghun Jung and Seong-Hoon Lee\
+with Yonghun Jung and Lee, Seong-Hoon\
 *National Assembly Budget Office*, 2020 · Korean
 :::
 
@@ -171,7 +171,7 @@ with Yonghun Jung and Seong-Hoon Lee\
 ### The Economic Effects of Gyeongbu-Expressway
 
 ::: {.paper-meta}
-with Yonghun Jung and Seong-Hoon Lee\
+with Yonghun Jung and Lee, Seong-Hoon\
 *Korea Expressway Corporation Research Institute*, 2020 · Korean
 :::
 
