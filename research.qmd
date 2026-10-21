@@ -20,7 +20,7 @@ format:
 ::: {.paper-item}
 ### Financial Sanctions and Dollar Dominance in Trade Invoicing {.no-anchor}
 
-<div class="jmp-status">Draft available upon request.</div>
+<div class="jmp-status"><a class="publication-link" href="jmp.pdf" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Latest version (PDF)</a></div>
 
 <div class="jmp-takeaway">Sanctions can shift trade invoicing away from the dollar by making dollar-linked working capital credit less reliable.</div>
 
