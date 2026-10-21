@@ -16,6 +16,8 @@ project:
     - site-events.js
     - profile-website-520.jpg
     - profile-website-780.jpg
+    - profile-2026-10-20-560.jpg
+    - profile-2026-10-20-840.jpg
     - profile-website.png
     - profile.jpg
     - home/**
@@ -32,7 +34,7 @@ website:
   open-graph: true
   twitter-card:
     card-style: summary
-  image: profile-website-780.jpg
+  image: profile-2026-10-20-840.jpg
   search: false
   page-footer:
     # Deployment replaces this signature with the month of the latest docs change.

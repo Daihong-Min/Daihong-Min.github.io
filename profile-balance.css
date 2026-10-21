@@ -1,12 +1,12 @@
-/* Balance the full portrait with a quieter name and tighter header spacing. */
+/* Balance the square portrait with the name and compact profile details. */
 .profile-container {
   align-items: flex-start;
-  gap: 36px;
+  gap: 32px;
   margin-top: 16px;
   margin-bottom: 24px;
 }
-.profile-image-box { flex-basis: 260px; }
-.profile-img { max-width: 260px; }
+.profile-image-box { flex-basis: 280px; }
+.profile-img { max-width: 280px; aspect-ratio: 1; }
 .profile-text-box h1 {
   display: flex;
   flex-wrap: wrap;
