@@ -1,10 +1,11 @@
 % Canonical CV source: edit in Overleaf and publish via Integrations > GitHub.
-\documentclass[10pt]{article}
+\documentclass[11pt]{article}
 \usepackage{geometry}
-\geometry{margin=1in}
+\geometry{margin=0.75in}
 \usepackage{enumitem}
 \setlist[itemize]{topsep=3pt,itemsep=3pt,parsep=0pt,partopsep=0pt}
 \usepackage{titlesec}
+\usepackage{needspace}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{multicol}
@@ -49,7 +50,7 @@
 
 % Consistent, slightly more open spacing for the five research/awards lists.
 \newenvironment{cvresearchlist}
-  {\begin{itemize}[leftmargin=*,topsep=3pt,itemsep=6pt,parsep=0pt,partopsep=0pt]}
+  {\begin{itemize}[leftmargin=*,topsep=3pt,itemsep=4pt,parsep=0pt,partopsep=0pt]\setlength{\emergencystretch}{1em}}
   {\end{itemize}}
 \newenvironment{cvteachinglist}
   {\begin{itemize}[leftmargin=*,topsep=3pt,itemsep=2pt,parsep=0pt,partopsep=0pt]\raggedright}
@@ -88,7 +89,7 @@
 \endgroup
 
 \sechead{References}
-\begin{tabular}{@{}p{0.5\textwidth} p{0.5\textwidth}}
+\begin{tabular}{@{}p{\dimexpr0.5\textwidth-\tabcolsep\relax} p{\dimexpr0.5\textwidth-\tabcolsep\relax}@{}}
     \textbf{\href{https://faculty.econ.ucdavis.edu/faculty/bergin/}{Paul Bergin}} (Chair) &
     \textbf{\href{https://katherynruss.weebly.com/}{Katheryn Russ}} \\
     Professor & Professor \\
@@ -117,11 +118,15 @@
 \textit{Presentations:} Southern Economic Association (2026, scheduled); Western Economic Association International Annual Conference (2026); UC Davis Macro/International Seminar (2025, 2026).}\par
 }
 
+% Keep all three personal-information lines together.
+\Needspace{5\baselineskip}
 \sechead{Personal Information}
 \textbf{Citizenship:} Republic of Korea; U.S. Permanent Resident (Green Card holder) \\
 \textbf{Language:} Korean (native), English (fluent) \\
-\textbf{Programming skills:} Stata, Python, R, Matlab, \LaTeX \\
+\textbf{Programming skills:} Stata, Python, R, Matlab, \LaTeX\par
 
+% Keep the publications heading with its first complete entry.
+\Needspace{6\baselineskip}
 \sechead{Academic Publications}
 \vspace{-2em}
 \begin{cvresearchlist}
@@ -176,6 +181,7 @@
 % Keep the teaching section at the top of a new page.
 \begingroup
 \setlength{\parskip}{3pt}
+\Needspace{6\baselineskip}
 \sechead{Teaching Experience}
 \subentry{Graduate Tutor, UC Davis}{Sep 2026--present}
 \vspace{-1.5em}
@@ -227,3 +233,4 @@
 
 \vfill
 \end{document}
+
