@@ -28,30 +28,30 @@ format:
 <summary>Abstract</summary>
 
 ::: {.paper-abstract}
-The dollar’s widespread use in trade shapes how exchange-rate movements and other external shocks affect prices and production around the world. This paper contributes to research on challenges to the dollar’s leading role in trade by asking whether U.S. financial sanctions can weaken that role, even though it gives these sanctions their power. Using country-level data, I find that stronger sanctions against Chinese entities are associated with relatively higher renminbi and lower dollar invoicing shares in countries more reliant on imports from China. For countries with a 10-percentage-point higher import share from China, a one-standard-deviation rise in sanctions is associated with a 0.2 percentage point larger increase in the renminbi share and a 0.8 percentage point larger decline in the dollar share on impact. The renminbi increase is roughly 60 percent of the average renminbi share of 0.32 percent. The link between reliance on Chinese imports and the renminbi response is weaker where those imports require little short-term financing. I introduce a novel financing mechanism into a model of Chinese exporters’ currency choice: sanctions restrict credit under dollar invoicing but leave it unchanged under renminbi invoicing. Without sanctions, dollar invoicing offers greater credit access and matches dollar revenues with dollar-priced input costs. Exporters choose renminbi invoicing when the expected cost of sanctions-related credit restrictions outweighs these advantages. Sanctions can therefore make dollar invoicing less attractive to exporters that depend heavily on credit to finance production.
+This paper documents signs that the long-standing dominance of the U.S. dollar in global trade invoicing has recently begun to falter, and that this development is associated with the recent application of U.S. financial sanctions. Theoretically, I propose a novel mechanism linking invoicing currency choice to sanctions: invoicing in dollars exposes firms to uncertainty about future cash flows under sanctions, which can lead creditors to limit working-capital lending. Firms balance this financing risk against the benefits of dollar invoicing in terms of liquidity and reduced exchange-rate risk. Using country-level import invoicing data, I find that stronger U.S. sanctions against Chinese entities are associated with small but measurable additional declines in dollar invoicing shares and additional increases in renminbi invoicing shares in countries with greater pre-existing import exposure to China. For a 10-percentage-point higher initial share of imports from China, a one-standard-deviation increase in sanctions is associated with a 0.8-percentage-point larger decline in the dollar invoicing share and a 0.2-percentage-point larger rise in the renminbi invoicing share on impact. Consistent with the mechanism, evidence indicates that the renminbi response is weaker where imports from China are concentrated in industries with lower working-capital requirement. These findings indicate that sanctions can weaken dollar dominance by making dollar invoicing a source of financing risk.
 :::
 
 </details>
 
 ::: {.paper-presentations}
-**Presentations:** Southern Economic Association — 2026 (scheduled); Western Economic Association International Annual Conference — 2026; UC Davis Macro/International Seminar — 2025, 2026.
+**Presentations:** Western Economic Association International (WEAI) International Conference — Seoul, 2027 (scheduled); Southern Economic Association Annual Meeting — Houston, 2026; WEAI Annual Conference — Denver, 2026; UC Davis Macro/International Seminar — 2025, 2026.
 :::
 :::
 
 ## Working Papers {.no-anchor}
 
 ::: {.paper-item}
-### Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes {.no-anchor}
+### Pre-Tax Promotional Slack and the Strategic Pass-Through of Local Sugar-Sweetened Beverage Taxes {#promotional-slack-and-the-strategic-pass-through-of-local-sugar-sweetened-beverage-taxes .no-anchor}
 
 *with Yijoong Won and Kristin Kiesel*
 
-<div class="paper-takeaway">Retailers adjust regular prices or promotions after an SSB tax, depending on pre-tax promotional slack.</div>
+<div class="paper-takeaway">Pre-tax promotional slack helps explain whether retailers pass an SSB tax through higher regular prices or fewer promotions.</div>
 
 <details class="abstract-toggle research-abstract-toggle">
 <summary>Abstract</summary>
 
 ::: {.paper-abstract}
-The effective price a consumer pays at a store combines a regular price with temporary promotions. A tax can raise the regular price, cut the frequency of discounts, or both. This paper asks how retailers strategically respond to sugar-sweetened beverage (SSB) taxes implemented locally and distinguished between these two. We develop a simple conceptual model that makes the regular price costly, while changes to promotions are relatively cheaper, but bounded by pre-tax promotional patterns. We then study retailer pricing behavior after the introduction of the 2018 San Francisco sugar-sweetened beverage tax using NielsenIQ scanner data. Utilizing a local projection difference-in-differences approach, we detect an average pass-through of 73 percent. However, low-promotional slack groups, grocery stores and soft drinks, move the regular price and high-promotional slack group, discount stores, cut promotions and hold the regular price nearly flat. Because incidence can run through promotions that the effective price miss, the distributional reading of these taxes depends on which margin moves.
+A retailer can pass through an excise tax to consumers in two ways: by raising the list or regular price, or by quietly reducing promotions previously offered. We study which of these strategies retailers choose after the 2018 San Francisco sugar-sweetened beverage (SSB) tax. We develop a simple model positing that changing the regular price is relatively costly to retailers, while cutting promotions is relatively cheaper but limited by each market’s pre-tax promotional slack, meaning the discounts it already offers that it could withdraw. The model predicts that markets with ample slack pass the tax through by cutting promotions, while markets with little slack raise the regular price. Using NielsenIQ store-week scanner data and local projection difference-in-differences estimates, and the Sacramento market as a control, we find that consumers pay about 73 percent of the one-cent-per-ounce tax, that promotion frequency fell by about 2 percentage points, and that taxed volume decreased by 9 percent. Studies that measure pass-through using regular or list prices alone will not capture price changes consumers actually face and average pass-throughs previously reported in the literature hide the mechanisms that resulted in these changes. Few studies published to date provide a disaggregated analysis by type of retailer. We find that grocery stores raise regular prices for SSBs by about 8 percent. In contrast, discount stores, which have more pre-tax promotional slack, raise regular prices of SSBs by less than 5 percent but cut promotions sharply, and as a result, the largest effective-price increase we observe in our data (about 11 percent). Prices for taxed sparkling water change very little across all retailers but lose 11 percent in sales volume.
 :::
 
 </details>
@@ -62,17 +62,17 @@ The effective price a consumer pays at a store combines a regular price with tem
 :::
 
 ::: {.paper-item}
-### Does Habitual Demand Survive a Household Health Shock? Evidence from Retail Diabetes-Device Purchases {.no-anchor}
+### Fast but Modest: Cognitive Transition and Soda Purchases among Households Managing Diabetes {#does-habitual-demand-survive-a-household-health-shock-evidence-from-retail-diabetes-device-purchases .no-anchor}
 
 *with Yifan Xie*
 
-<div class="paper-takeaway">Regular soda purchases fall soon after diabetes-monitoring purchases, then show little further adjustment.</div>
+<div class="paper-takeaway">Regular soda purchases fall in the first diabetes-monitoring purchase quarter, with little further adjustment.</div>
 
 <details class="abstract-toggle research-abstract-toggle">
 <summary>Abstract</summary>
 
 ::: {.paper-abstract}
-Soft-drink purchases are highly persistent, and macroeconomic models use habit formation in individual goods to explain sluggish demand and incomplete price pass-through. Evidence for this mechanism largely comes from responses to price, tax, and income shocks, which may also reflect slow price adjustment or delayed awareness. We examine whether this persistence extends to a household-specific health event. Using Nielsen scanner data linked to survey-reported diagnoses, we identify retail monitoring onset from households’ first observed purchases of glucose meters or test strips. Local projection difference-in-differences estimates compare these households with those recording neither a monitoring purchase nor a diabetes diagnosis. Regular soda purchases decline within two quarters and remain lower for two years. The average reduction is 70.5 ounces per household per quarter, approximately 11 percent of purchases before onset. The decline in regular soda’s share is accompanied by a corresponding increase in diet soda’s share. Among households whose monitoring purchases precede the reported diagnosis year, the decline begins in the purchase quarter. The adjustment is concentrated in the first two quarters, while roughly 90 percent of baseline purchases remain. These findings suggest that households respond promptly to the onset of retail monitoring but make limited changes to an otherwise persistent purchasing pattern.
+We study how soda purchases change when a household takes a step toward managing diabetes. We call this step a cognitive transition and date it by the household's first observed retail purchase of a glucose meter or test strips, separately from the diagnosis year the household reports in a survey. Using NielsenIQ household scanner data linked to PanelView surveys and a local projection difference-in-differences design, we compare these households with households that record neither a monitoring purchase nor a diabetes diagnosis. Regular soda purchases are already lower in the transition quarter and stay lower for two years. At the household level, the average decline is 70.5 fluid ounces per quarter, about 11 percent of purchases before the transition and about three quarters of the average response to a beverage tax. Among households whose monitoring purchase precedes the reported diagnosis year, the decline begins before that year. Diet soda replaces less than half of the lost volume. The decline does not grow after the first quarter, so a modest response need not reflect slow adjustment.
 :::
 
 </details>
@@ -85,6 +85,8 @@ Soft-drink purchases are highly persistent, and macroeconomic models use habit f
 * **The Impact of Economic and Monetary Union on Adjustment Speed** <span class="wip-coauthors">with Sang Young Jei</span>
 
 * **Diplomatic Partnerships and the Political Sensitivity of Chinese Outbound Investment** <span class="wip-coauthors text-nowrap">with Nina Yang</span>
+
+* **Globalization of Renminbi and Exchange Rate Pass Through in Korea**
 
 ## Publications
 
